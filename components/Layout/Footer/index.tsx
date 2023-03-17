@@ -23,11 +23,11 @@ const Footer = () => {
           {/* Products */}
 
           <div className="w-full space-y-2 md:space-y-8 ">
-            <div className="border-b lg:border-r border-white/20 py-3 lg:py-5 flex lg:pl-[140px] ">
+            <div className="border-b lg:border-r border-white/20 py-3 lg:py-5 flex lg:pl-[80px] xl:pl-[140px] ">
               <h1 className="footer_heading">Products</h1>
             </div>
             {footerLinks.products.map((item, index) => (
-              <div key={index} className="lg:pl-[140px]">
+              <div key={index} className=" lg:pl-[80px] xl:pl-[140px]">
                 <h1 className=" footer_links ">{item.name}</h1>
               </div>
             ))}
@@ -36,11 +36,11 @@ const Footer = () => {
           {/* Comapany */}
 
           <div className="w-full space-y-2 md:space-y-8 ">
-            <div className="border-b lg:border-r border-white/20 py-3 lg:py-5 flex lg:pl-[164px]">
+            <div className="border-b lg:border-r border-white/20 py-3 lg:py-5 flex lg:pl-[120px] xl:pl-[164px]">
               <h1 className="footer_heading">Company</h1>
             </div>
             {footerLinks.company.map((item, index) => (
-              <div key={index} className="lg:pl-[164px]">
+              <div key={index} className="lg:pl-[120px] xl:pl-[164px]">
                 <h1 className=" footer_links ">{item.name}</h1>
               </div>
             ))}
@@ -49,11 +49,11 @@ const Footer = () => {
           {/* Resources */}
 
           <div className="w-full space-y-2 md:space-y-8 ">
-            <div className="border-b  border-white/20 py-3 lg:py-5 flex lg:pl-[160px]">
+            <div className="border-b  border-white/20 py-3 lg:py-5 flex lg:pl-[90px] xl:pl-[160px]">
               <h1 className="footer_heading">Resources</h1>
             </div>
             {footerLinks.resources.map((item, index) => (
-              <div key={index} className="lg:pl-[160px]">
+              <div key={index} className="lg:pl-[90px] xl:pl-[160px]">
                 <h1 className=" footer_links ">{item.name}</h1>
               </div>
             ))}
