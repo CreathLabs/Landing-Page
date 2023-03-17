@@ -21,7 +21,7 @@ const Service: React.FC<Props> = ({ title, body, icon, rotate }) => {
         {body}
       </p>
 
-      <div className="absolute w-full left-0 right-0 -top-[46px] flex justify-center">
+      <div className="absolute w-full left-0 right-0 -top-10 lg:-top-[46px] flex justify-center">
         <div className=" w-[64px] h-[64px] md:w-[80px] md:h-[80px] rounded-full bg-primary flex justify-center items-center ">
           <Icon
             icon={icon}
