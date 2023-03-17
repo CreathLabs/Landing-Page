@@ -32,6 +32,13 @@
   @apply text-[25px] md:text-4xl font-semibold font-Playfair leading-[45px] md:leading-[83px];
 }
 
+.footer_heading {
+  @apply font-Playfair text-lg md:text-xl leading-[45px] font-semibold;
+}
+.footer_links {
+  @apply cursor-pointer hover:text-white/90 w-fit font-Manrope text-base md:text-lg leading-[45px] font-medium  text-gray;
+}
+
 .scrollerMain::-webkit-scrollbar {
   width: 6px !important;
 }
