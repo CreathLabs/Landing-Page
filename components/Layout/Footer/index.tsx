@@ -8,12 +8,11 @@ const Footer = () => {
   return (
     <div className="contain pt-10 space-y-12 lg:space-y-16 !mt-10 ">
       {/* head */}
-      <div className="w-full flex flex-col items-center space-y-1">
+      <div className="w-full flex flex-col items-center space-y-3 md:space-y-4">
         <h1 className=" font-semibold text-[22px] md:text-3xl font-Playfair leading-[45px] ">
           Creath Innovations
         </h1>
         <h3 className=" text-[17px] md:text-xl font-light leading-[45px] ">
-          {" "}
           Creativity meets Innovation
         </h3>
       </div>
