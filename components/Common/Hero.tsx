@@ -17,12 +17,10 @@ const Hero: React.FC<Props> = ({ children, Frame, Mobile }) => {
   }
 
   useEffect(() => {
-    if (loaded) {
-      setTimeout(() => {
-        setAnimate(false);
-      }, 1750);
-    }
-  }, [loaded]);
+    setTimeout(() => {
+      setAnimate(false);
+    }, 1750);
+  }, []);
 
   return (
     <div
