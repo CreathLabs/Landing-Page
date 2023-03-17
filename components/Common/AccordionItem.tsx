@@ -54,7 +54,9 @@ function AccordionItem({
         }}
       >
         <div className="!pb-2" ref={contentRef}>
-          {data.content}
+          <h1 className="text-base text-gray leading-[30px] ">
+            {data.content}
+          </h1>
         </div>
       </div>
     </div>

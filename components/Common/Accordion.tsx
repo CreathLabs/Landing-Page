@@ -3,7 +3,7 @@ import AccordionItem from "./AccordionItem";
 
 export interface AccordionProps {
   title: string;
-  content: ReactElement;
+  content: React.ReactNode;
 }
 
 function Accordion({ items }: { items: Array<AccordionProps> }) {

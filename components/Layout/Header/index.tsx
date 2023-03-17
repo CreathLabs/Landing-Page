@@ -3,7 +3,10 @@ import React from "react";
 import Button from "../../Common/Button";
 import NavLink from "../../Common/NavLink";
 
-const Header = () => {
+const Header: React.FC<{
+  toggleMenu: React.Dispatch<React.SetStateAction<boolean>>;
+  menu: boolean;
+}> = ({ toggleMenu, menu }) => {
   return (
     <div className="w-full fixed top-0 left-0 right-0 h-[68px] md:h-[80px] flex items-center md:sticky z-50 header py-3">
       <div className="contain relative flex justify-between items-center">
@@ -50,7 +53,7 @@ const Header = () => {
         <div className="hidden xl:block">
           <Button text="Contact Us" />
         </div>
-        <div className="xl:hidden">
+        <div onClick={() => toggleMenu(!menu)} className="xl:hidden">
           <Icon
             icon="fe:app-menu"
             className="bg-[#00EAFC]/[44%] text-black text-[26px] "

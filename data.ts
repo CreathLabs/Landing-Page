@@ -102,3 +102,38 @@ export const footerLinks = {
     { name: "Blog", link: "" },
   ],
 };
+
+export const accordionItems = [
+  {
+    title: "What is Creath?",
+    content: `  Creath is a next-generation tech company that delivers Web3, FinTech,
+        PropTech, and Blockchain services. Our platform has an integrated
+        marketplace built on the Ethereum Blockchain. This marketplace will
+        serve as a gallery for artists to display their digitized artworks to a
+        diverse global audience.`,
+  },
+  {
+    title: "Is there a free trial available?",
+    content: `  Creath is a next-generation tech company that delivers Web3, FinTech,
+        PropTech, and Blockchain services. Our platform has an integrated
+        marketplace built on the Ethereum Blockchain. This marketplace will
+        serve as a gallery for artists to display their digitized artworks to a
+        diverse global audience.`,
+  },
+  {
+    title: "Is there a free trial available?",
+    content: `  Creath is a next-generation tech company that delivers Web3, FinTech,
+        PropTech, and Blockchain services. Our platform has an integrated
+        marketplace built on the Ethereum Blockchain. This marketplace will
+        serve as a gallery for artists to display their digitized artworks to a
+        diverse global audience.`,
+  },
+  {
+    title: "Is there a free trial available?",
+    content: `  Creath is a next-generation tech company that delivers Web3, FinTech,
+        PropTech, and Blockchain services. Our platform has an integrated
+        marketplace built on the Ethereum Blockchain. This marketplace will
+        serve as a gallery for artists to display their digitized artworks to a
+        diverse global audience.`,
+  },
+];

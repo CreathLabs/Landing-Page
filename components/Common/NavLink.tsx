@@ -11,7 +11,7 @@ const NavLink: React.FC<Props> = ({ path, text }) => {
   const pathname = router.pathname.split("/")[1];
 
   return (
-    <div className="w-fit h-fit relative ">
+    <div className="w-fit h-fit  relative ">
       <h1
         className={`${
           path === pathname ? "text-white" : "text-gray"
@@ -20,7 +20,7 @@ const NavLink: React.FC<Props> = ({ path, text }) => {
         {text}
       </h1>
       {path === pathname && (
-        <div className="absolute top-[108%] left-0 right-0 bottom-0 w-full h-full flex justify-center">
+        <div className="absolute top-[40%] -right-[110%]  xl:top-[108%] xl:right-0 bottom-0 w-full h-full flex justify-center">
           <div className=" w-[8px] h-[8px] bg-white rounded-full "></div>
         </div>
       )}

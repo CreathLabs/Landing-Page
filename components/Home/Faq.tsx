@@ -1,61 +1,11 @@
+import { accordionItems } from "@/data";
 import React from "react";
 import Accordion from "../Common/Accordion";
-
-const accordionItems = [
-  {
-    title: "What is Creath?",
-    content: (
-      <h1 className="text-base text-gray leading-[30px] ">
-        Creath is a next-generation tech company that delivers Web3, FinTech,
-        PropTech, and Blockchain services. Our platform has an integrated
-        marketplace built on the Ethereum Blockchain. This marketplace will
-        serve as a gallery for artists to display their digitized artworks to a
-        diverse global audience.
-      </h1>
-    ),
-  },
-  {
-    title: "Is there a free trial available?",
-    content: (
-      <h1 className="text-base text-gray leading-[30px] ">
-        Creath is a next-generation tech company that delivers Web3, FinTech,
-        PropTech, and Blockchain services. Our platform has an integrated
-        marketplace built on the Ethereum Blockchain. This marketplace will
-        serve as a gallery for artists to display their digitized artworks to a
-        diverse global audience.
-      </h1>
-    ),
-  },
-  {
-    title: "Is there a free trial available?",
-    content: (
-      <h1 className="text-base text-gray leading-[30px] ">
-        Creath is a next-generation tech company that delivers Web3, FinTech,
-        PropTech, and Blockchain services. Our platform has an integrated
-        marketplace built on the Ethereum Blockchain. This marketplace will
-        serve as a gallery for artists to display their digitized artworks to a
-        diverse global audience.
-      </h1>
-    ),
-  },
-  {
-    title: "Is there a free trial available?",
-    content: (
-      <h1 className="text-base text-gray leading-[30px] ">
-        Creath is a next-generation tech company that delivers Web3, FinTech,
-        PropTech, and Blockchain services. Our platform has an integrated
-        marketplace built on the Ethereum Blockchain. This marketplace will
-        serve as a gallery for artists to display their digitized artworks to a
-        diverse global audience.
-      </h1>
-    ),
-  },
-];
 
 const Faq = () => {
   return (
     <div
-      className="pt-10 pb-20 lg:pb-40 space-y-10 md:space-y-14  contain "
+      className="pt-10 pb-20 lg:pb-32 space-y-10 md:space-y-14  contain "
       data-aos="fade-up"
     >
       <div className="flex flex-col items-center space-y-2 justify-center">
