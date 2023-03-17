@@ -15,19 +15,6 @@
   backdrop-filter: blur(21px);
 }
 
-.hero_gradient {
-  background: linear-gradient(
-    178.69deg,
-    #000000 2.76%,
-    rgba(0, 0, 0, 0.71) 46.25%,
-    rgba(0, 0, 0, 0.72) 58.39%,
-    rgba(0, 0, 0, 0.58) 76.75%,
-    rgba(0, 0, 0, 0.58) 81.95%,
-    rgba(0, 0, 0, 0.58) 89.15%,
-    rgba(0, 0, 0, 0.58) 98.89%
-  );
-}
-
 .menu_bg {
   background: linear-gradient(
     152.97deg,
@@ -77,6 +64,20 @@
   );
   border-radius: 10px;
 }
+
+.hero_gradient {
+  background: linear-gradient(
+    178.69deg,
+    #000000 2.76%,
+    rgba(0, 0, 0, 0.71) 46.25%,
+    rgba(0, 0, 0, 1) 58.39%,
+    rgba(0, 0, 0, 1) 76.75%,
+    rgba(0, 0, 0, 0.8) 81.93%,
+    rgba(0, 0, 0, 0.7) 89.15%,
+    rgba(0, 0, 0, 0.67) 98.89%
+  );
+}
+
 @media (min-width: 768px) {
   .blog_overlay {
     background: linear-gradient(
@@ -90,5 +91,17 @@
       #000000 100%
     );
     border-radius: 10px;
+  }
+  .hero_gradient {
+    background: linear-gradient(
+      178.69deg,
+      #000000 2.76%,
+      rgba(0, 0, 0, 0.71) 46.25%,
+      rgba(0, 0, 0, 0.72) 58.39%,
+      rgba(0, 0, 0, 0.72) 76.75%,
+      rgba(0, 0, 0, 0.67) 81.93%,
+      rgba(0, 0, 0, 0.7) 89.15%,
+      rgba(0, 0, 0, 0.54) 98.89%
+    );
   }
 }
