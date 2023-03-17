@@ -55,7 +55,7 @@ const accordionItems = [
 const Faq = () => {
   return (
     <div
-      className="pt-10 pb-20 md:pb-40 space-y-14  contain "
+      className="pt-10 pb-20 md:pb-40 space-y-8 md:space-y-14  contain "
       data-aos="fade-up"
     >
       <div className="flex flex-col items-center space-y-2 justify-center">

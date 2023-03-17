@@ -12,7 +12,7 @@ const BlogCard = () => {
       <Image
         src="https://res.cloudinary.com/dk6uhtgvo/image/upload/v1678915136/Rectangle_11_gmgywo.png"
         fill
-        className={`object-cover transition-all ease-in-out duration-500 ${
+        className={`object-cover rounded-[10px] transition-all  ease-in-out duration-500 ${
           hoverd ? "scale-105" : ""
         } `}
         alt="Blog_image"
