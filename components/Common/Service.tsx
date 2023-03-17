@@ -25,7 +25,10 @@ const Service: React.FC<Props> = ({ title, body, icon, rotate }) => {
         <div className=" w-[64px] h-[64px] md:w-[80px] md:h-[80px] rounded-full bg-primary flex justify-center items-center ">
           <Icon
             icon={icon}
-            className={`text-black text-3xl ${rotate ? rotate : "  "} `}
+            className={`text-black text-3xl `}
+            style={{
+              transform: rotate ? "rotate(90deg)" : "",
+            }}
           />
         </div>
       </div>
