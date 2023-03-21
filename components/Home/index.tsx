@@ -15,10 +15,10 @@ const Home = () => {
     <div className="w-full bg-black ">
       <Hero Frame={Frame} Mobile={MobileFrame}>
         <>
-          <h1 className="font-Playfair font-bold text-[25px] leading-[45px]  md:text-5xl ">
-            Creativity X Innovation
-          </h1>
-          <h1 className="max-w-[600px] font-Manrope font-light !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:leading-10 ">
+          <div className="font-Playfair font-bold text-[25px] space-x-2 md:space-x-6 leading-[83px]  md:text-5xl ">
+            <span>Creativity</span> <span>X</span> <span>Innovation</span>
+          </div>
+          <h1 className="max-w-[600px] font-Manrope text-secondary !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
             Creath is a diverse team of highly skilled professionals with
             creative visualisation forging a new model of culture and value in
             web3.

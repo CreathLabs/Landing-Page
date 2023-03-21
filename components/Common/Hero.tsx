@@ -5,9 +5,11 @@ interface Props {
   Frame: StaticImageData;
   Mobile: StaticImageData;
   children: React.ReactNode;
+  bg?: string;
+  bgMobile?: string;
 }
 
-const Hero: React.FC<Props> = ({ children, Frame, Mobile }) => {
+const Hero: React.FC<Props> = ({ children, Frame, Mobile, bg, bgMobile }) => {
   const [animate, setAnimate] = useState(true);
   const [loaded, setLoaded] = useState(false);
 
@@ -24,7 +26,11 @@ const Hero: React.FC<Props> = ({ children, Frame, Mobile }) => {
 
   return (
     <div
-      className={` h-screen md:h-[calc(100vh-80px)] relative w-full bg-[url('/mobile.svg')] md:bg-[url('/background.svg')]   bg-no-repeat bg-cover ${
+      className={` h-screen md:h-[calc(100vh-80px)] relative w-full ${
+        bg ? bg : "md:bg-[url('/background.svg')]"
+      } ${
+        bgMobile ? bgMobile : "bg-[url('/mobile.svg')]"
+      }      bg-no-repeat bg-cover ${
         animate ? "animate-pulse" : "animate-none"
       }   `}
     >

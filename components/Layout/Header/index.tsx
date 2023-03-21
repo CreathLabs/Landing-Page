@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 import React from "react";
 import Button from "../../Common/Button";
 import NavLink from "../../Common/NavLink";
@@ -8,9 +9,9 @@ const Header: React.FC<{
   menu: boolean;
 }> = ({ toggleMenu, menu }) => {
   return (
-    <div className="w-full fixed top-0 left-0 right-0 h-[68px] md:h-[80px] flex items-center md:sticky z-50 header py-3">
-      <div className="contain relative flex justify-between items-center">
-        <div>
+    <div className="w-full fixed top-0 left-0 right-0 h-[68px] md:h-[80px] flex items-center md:sticky z-50 header">
+      <div className="contain relative h-full flex justify-between items-center">
+        <div className="z-50 cursor-pointer">
           <svg
             width="55"
             height="40"
@@ -47,10 +48,15 @@ const Header: React.FC<{
         <div className=" hidden absolute top-0 left-0 right-0 bottom-0 xl:flex w-full h-full justify-center space-x-[88px] items-center">
           <NavLink text="Home" path="" />
           <NavLink text="Marketplace" path="/marketplace" />
-          <NavLink text="Products" path="/products" />
-          <NavLink text="Company" path="/company" />
+          <NavLink
+            text="Products"
+            path="/products"
+            isdropdown
+            content={products}
+          />
+          <NavLink text="Company" path="company" isdropdown content={company} />
         </div>
-        <div className="hidden xl:block">
+        <div className="hidden z-50 xl:block">
           <Button text="Contact Us" />
         </div>
         <div onClick={() => toggleMenu(!menu)} className="xl:hidden">
@@ -65,3 +71,50 @@ const Header: React.FC<{
 };
 
 export default Header;
+
+const company = (
+  <div className="flex flex-col divide-y divide-[#868686]/20 ">
+    {["about-us", "team", "careers"].map((item, index) => (
+      <div key={index} className="first:pt-0 last:pb-0 pt-6 pb-6">
+        <Link
+          href={`/company/${item}`}
+          className=" text-lg capitalize font-bold hover:text-primary font-Playfair  "
+        >
+          <h1>{item.replace("-", " ")}</h1>
+        </Link>
+      </div>
+    ))}
+  </div>
+);
+
+const list = [
+  {
+    name: "Creath Art Marketplace",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+  },
+  {
+    name: "BucketBoy NFT",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+  },
+  {
+    name: "Creath Governance Token",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+  },
+  {
+    name: "LaNoche",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+  },
+];
+
+const products = (
+  <div className="flex flex-col divide-y divide-[#868686]/20 ">
+    {list.map((item, index) => (
+      <div key={index} className="first:pt-0 last:pb-0 space-y-2 pt-5 pb-5">
+        <h1 className=" text-lg font-bold cursor-pointer font-Playfair  ">
+          {item.name}
+        </h1>
+        <p className="text-gray text-base  ">{item.about}</p>
+      </div>
+    ))}
+  </div>
+);

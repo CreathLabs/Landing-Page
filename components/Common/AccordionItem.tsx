@@ -48,7 +48,7 @@ function AccordionItem({
       </div>
 
       <div
-        className={`  transition-all duration-200 ease-linear overflow-hidden `}
+        className={`  transition-all duration-300 ease-linear overflow-hidden `}
         style={{
           height: isOpen ? contentRef.current?.clientHeight + "px" : "0px",
         }}

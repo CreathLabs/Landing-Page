@@ -39,7 +39,7 @@ const Product: React.FC<Props> = ({
           )}
         </div>
         <div className="!mt-1 md:!mt-4">
-          <p className=" text-base md:text-xl  font-light leading-10  ">
+          <p className=" text-base md:text-xl  font-light !leading-10  ">
             {about}
           </p>
         </div>
