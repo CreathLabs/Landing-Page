@@ -3,7 +3,10 @@ import React from "react";
 
 const TeamCard = () => {
   return (
-    <div className="w-full h-full flex flex-col space-y-6 md:space-y-12 ">
+    <div
+      className="w-full h-full flex flex-col space-y-6 md:space-y-12 "
+      data-aos="fade-up"
+    >
       <div className="relative h-[279px] w-full rounded-[20px] ">
         <Image
           src="https://res.cloudinary.com/dk6uhtgvo/image/upload/v1679368291/Person_xxyebx.png"
