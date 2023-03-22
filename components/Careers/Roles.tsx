@@ -10,6 +10,7 @@ const Roles = () => {
         <div className="flex flex-col space-y-8 w-full">
           {roles.map(({ title, type, description, where }, index) => (
             <Role
+              key={index}
               type={type}
               description={description}
               title={title}
