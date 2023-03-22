@@ -7,11 +7,11 @@ const TeamCard = () => {
       className="w-full h-full flex flex-col space-y-6 md:space-y-12 "
       data-aos="fade-up"
     >
-      <div className="relative h-[279px] w-full rounded-[20px] ">
+      <div className="relative h-[250px] md:h-[279px] w-full rounded-[20px] ">
         <Image
           src="https://res.cloudinary.com/dk6uhtgvo/image/upload/v1679368291/Person_xxyebx.png"
           fill
-          className="w-full h-full rounded-[20px] object-cover object-top "
+          className="w-full h-full rounded-[20px] object-cover object-center "
           alt="team_member"
         />
       </div>

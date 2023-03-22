@@ -27,10 +27,8 @@ const Hero: React.FC<Props> = ({ children, Frame, Mobile, bg, bgMobile }) => {
   return (
     <div
       className={` h-screen md:h-[calc(100vh-80px)] relative w-full ${
-        bg ? bg : "md:bg-[url('/background.svg')]"
-      } ${
-        bgMobile ? bgMobile : "bg-[url('/mobile.svg')]"
-      }      bg-no-repeat bg-cover ${
+        bg ? bg : ""
+      } ${bgMobile ? bgMobile : ""}      bg-no-repeat bg-cover ${
         animate ? "animate-pulse" : "animate-none"
       }   `}
     >

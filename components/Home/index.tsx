@@ -13,7 +13,12 @@ import Services from "./Services";
 const Home = () => {
   return (
     <div className="w-full bg-black ">
-      <Hero Frame={Frame} Mobile={MobileFrame}>
+      <Hero
+        bg="md:bg-[url('/background.svg')]"
+        bgMobile="bg-[url('/mobile.svg')]"
+        Frame={Frame}
+        Mobile={MobileFrame}
+      >
         <>
           <div className="font-Playfair font-bold text-[25px] space-x-2 md:space-x-6 leading-[83px]  md:text-5xl ">
             <span>Creativity</span> <span>X</span> <span>Innovation</span>

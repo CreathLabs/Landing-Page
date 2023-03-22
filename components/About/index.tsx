@@ -30,7 +30,12 @@ const About = () => {
         </>
       </Hero>
       <Mission />
-      <Team />
+      <div className="hidden md:block">
+        <Team limit={8} />
+      </div>
+      <div className="block md:hidden">
+        <Team limit={4} />
+      </div>
       <Join />
       <Partners />
       <Blogs />

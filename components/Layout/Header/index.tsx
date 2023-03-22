@@ -47,10 +47,10 @@ const Header: React.FC<{
         </div>
         <div className=" hidden absolute top-0 left-0 right-0 bottom-0 xl:flex w-full h-full justify-center space-x-[88px] items-center">
           <NavLink text="Home" path="" />
-          <NavLink text="Marketplace" path="/marketplace" />
+          <NavLink text="Marketplace" path="marketplace" />
           <NavLink
             text="Products"
-            path="/products"
+            path="products"
             isdropdown
             content={products}
           />
@@ -77,7 +77,9 @@ const company = (
     {["about-us", "team", "careers"].map((item, index) => (
       <div key={index} className="first:pt-0 last:pb-0 pt-6 pb-6">
         <Link
-          href={`/company/${item}`}
+          href={
+            item === "team" ? `/company/about-us#teams` : `/company/${item}`
+          }
           className=" text-lg capitalize font-bold hover:text-primary font-Playfair  "
         >
           <h1>{item.replace("-", " ")}</h1>

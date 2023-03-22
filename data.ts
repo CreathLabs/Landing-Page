@@ -137,3 +137,27 @@ export const accordionItems = [
         diverse global audience.`,
   },
 ];
+
+export const roles = [
+  {
+    type: "Fulltime",
+    title: "Product Designer",
+    description:
+      "We are Looking for a product designer with 56 years of experience to join the team",
+    where: "Remote, Nigeria",
+  },
+  {
+    type: "Fulltime",
+    title: "Product Designer",
+    description:
+      "We are Looking for a product designer with 56 years of experience to join the team",
+    where: "Remote, Nigeria",
+  },
+  {
+    type: "Fulltime",
+    title: "Product Designer",
+    description:
+      "We are Looking for a product designer with 56 years of experience to join the team",
+    where: "Remote, Nigeria",
+  },
+];

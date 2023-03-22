@@ -11,9 +11,9 @@ const Menu: React.FC<{ open: boolean }> = ({ open }) => {
     >
       <div className=" mt-[120px]  flex flex-col contain space-y-[74px]">
         <NavLink text="Home" path="" />
-        <NavLink text="Marketplace" path="/marketplace" />
-        <NavLink text="Products" path="/products" />
-        <NavLink text="Company" path="/company" />
+        <NavLink text="Marketplace" path="marketplace" />
+        <NavLink text="Products" path="products" />
+        <NavLink text="Company" path="company" />
       </div>
     </div>
   );
