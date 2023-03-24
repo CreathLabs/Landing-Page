@@ -1,7 +1,5 @@
 import React from "react";
 import Hero from "../Common/Hero";
-import Frame from "../../public/Frame.png";
-import MobileFrame from "../../public/MobileFrame.png";
 import Mission from "./Mission";
 import Partners from "../Home/Partners";
 import Blogs from "../Home/Blogs";
@@ -12,8 +10,6 @@ const About = () => {
   return (
     <div className="w-full bg-black ">
       <Hero
-        Frame={Frame}
-        Mobile={MobileFrame}
         bg="md:bg-[url('/background-about.svg')]"
         bgMobile="bg-[url('/background-about.svg')]"
       >

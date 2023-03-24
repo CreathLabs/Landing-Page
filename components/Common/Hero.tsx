@@ -1,15 +1,15 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import Frame from "../../public/Frame.png";
+import MobileFrame from "../../public/MobileFrame.png";
 
 interface Props {
-  Frame: StaticImageData;
-  Mobile: StaticImageData;
   children: React.ReactNode;
   bg?: string;
   bgMobile?: string;
 }
 
-const Hero: React.FC<Props> = ({ children, Frame, Mobile, bg, bgMobile }) => {
+const Hero: React.FC<Props> = ({ children, bg, bgMobile }) => {
   const [animate, setAnimate] = useState(true);
   const [loaded, setLoaded] = useState(false);
 
@@ -41,7 +41,7 @@ const Hero: React.FC<Props> = ({ children, Frame, Mobile, bg, bgMobile }) => {
           <Image src={Frame} className="!w-full" alt="Frame" />
         </div>
         <div className="w-full absolute  flex md:hidden justify-center items-start">
-          <Image src={Mobile} className="w-full" alt="Frame" />
+          <Image src={MobileFrame} className="w-full" alt="Frame" />
         </div>
       </div>
       <div

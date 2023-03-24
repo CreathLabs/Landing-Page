@@ -1,14 +1,13 @@
 import React from "react";
 import Hero from "../Common/Hero";
-import Frame from "../../public/Frame.png";
-import MobileFrame from "../../public/MobileFrame.png";
+
 import Team from "../About/Team";
 import Roles from "./Roles";
 
 const Careers = () => {
   return (
     <div className="w-full bg-black ">
-      <Hero Frame={Frame} Mobile={MobileFrame} bg="" bgMobile="">
+      <Hero bg="" bgMobile="">
         <>
           <div className="font-Playfair font-bold text-[25px] space-x-6 leading-[83px]  md:text-5xl ">
             <span>Become a Creathor</span>

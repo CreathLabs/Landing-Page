@@ -28,6 +28,14 @@
   @apply text-[25px] md:text-[40px] font-semibold font-Playfair leading-[45px] md:leading-[83px];
 }
 
+.sub_heading {
+  @apply text-lg md:text-2xl font-bold font-Playfair leading-[32px];
+}
+
+.paragraph {
+  @apply text-lg md:text-xl !leading-[45px];
+}
+
 .footer_heading {
   @apply font-Playfair text-lg md:text-xl leading-[45px] font-semibold;
 }

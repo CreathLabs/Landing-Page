@@ -1,6 +1,7 @@
 import { footerLinks } from "@/data";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import SubLogo from "../../../public/SubLogo.svg";
 
@@ -27,7 +28,9 @@ const Footer = () => {
             </div>
             {footerLinks.products.map((item, index) => (
               <div key={index} className=" lg:pl-[80px] xl:pl-[140px]">
-                <h1 className=" footer_links ">{item.name}</h1>
+                <Link href={item.link}>
+                  <h1 className=" footer_links ">{item.name}</h1>
+                </Link>
               </div>
             ))}
           </div>
@@ -40,7 +43,9 @@ const Footer = () => {
             </div>
             {footerLinks.company.map((item, index) => (
               <div key={index} className="lg:pl-[120px] xl:pl-[164px]">
-                <h1 className=" footer_links ">{item.name}</h1>
+                <Link href={item.link}>
+                  <h1 className=" footer_links ">{item.name}</h1>
+                </Link>
               </div>
             ))}
           </div>
@@ -53,7 +58,9 @@ const Footer = () => {
             </div>
             {footerLinks.resources.map((item, index) => (
               <div key={index} className="lg:pl-[90px] xl:pl-[160px]">
-                <h1 className=" footer_links ">{item.name}</h1>
+                <Link href={item.link}>
+                  <h1 className=" footer_links ">{item.name}</h1>
+                </Link>
               </div>
             ))}
           </div>

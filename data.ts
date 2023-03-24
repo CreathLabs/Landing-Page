@@ -93,13 +93,14 @@ export const footerLinks = {
     { name: "BucketBoy NFT", link: "" },
   ],
   company: [
-    { name: "About us", link: "" },
-    { name: "Contact ", link: "" },
-    { name: "Careers", link: "" },
+    { name: "About us", link: "/company/about-us" },
+    { name: "Contact ", link: "/company/about-us#teams" },
+    { name: "Careers", link: "/company/careers" },
   ],
   resources: [
     { name: "Terms & Conditions ", link: "" },
-    { name: "Blog", link: "" },
+    { name: "Blog", link: "/blogs" },
+    { name: "Events", link: "/events" },
   ],
 };
 
@@ -145,6 +146,7 @@ export const roles = [
     description:
       "We are Looking for a product designer with 56 years of experience to join the team",
     where: "Remote, Nigeria",
+    id: 1,
   },
   {
     type: "Fulltime",
@@ -152,6 +154,7 @@ export const roles = [
     description:
       "We are Looking for a product designer with 56 years of experience to join the team",
     where: "Remote, Nigeria",
+    id: 2,
   },
   {
     type: "Fulltime",
@@ -159,5 +162,6 @@ export const roles = [
     description:
       "We are Looking for a product designer with 56 years of experience to join the team",
     where: "Remote, Nigeria",
+    id: 3,
   },
 ];

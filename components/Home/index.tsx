@@ -4,6 +4,7 @@ import Frame from "../../public/Frame.png";
 import MobileFrame from "../../public/MobileFrame.png";
 import Button from "../Common/Button";
 import Hero from "../Common/Hero";
+import Product from "../Common/Product";
 import Blogs from "./Blogs";
 import Faq from "./Faq";
 import Partners from "./Partners";
@@ -16,8 +17,6 @@ const Home = () => {
       <Hero
         bg="md:bg-[url('/background.svg')]"
         bgMobile="bg-[url('/mobile.svg')]"
-        Frame={Frame}
-        Mobile={MobileFrame}
       >
         <>
           <div className="font-Playfair font-bold text-[25px] space-x-2 md:space-x-6 leading-[83px]  md:text-5xl ">
