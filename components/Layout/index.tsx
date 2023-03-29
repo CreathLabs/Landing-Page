@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { MenuContext } from "@/contexts/menuContext";
+import React, { useContext, useEffect, useState } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import Menu from "./Menu";
@@ -8,8 +9,7 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = ({ children }) => {
-  const [open, toggleMenu] = useState(false);
-
+  const { open, toggleMenu } = useContext(MenuContext);
   useEffect(() => {
     const body = document?.getElementById("root");
 
@@ -24,12 +24,26 @@ const Layout: React.FC<Props> = ({ children }) => {
     }
   }, [open]);
 
+  const handleResize = () => {
+    if (window.screen.width >= 1280) {
+      toggleMenu(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="bg-black font-Manrope text-white w-screen min-h-screen h-full !overflow-x-hidden md:!overflow-x-clip  ">
       <Header toggleMenu={toggleMenu} menu={open} />
       {children}
       <Footer />
-      <Menu open={open} />
+      <Menu open={open} toggleMenu={toggleMenu} />
     </div>
   );
 };

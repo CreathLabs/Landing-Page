@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Frame from "../../public/Frame.png";
+import HalfFrame from "../../public/halfFrame.png";
 import MobileFrame from "../../public/MobileFrame.png";
 
 interface Props {
@@ -33,10 +34,15 @@ const Hero: React.FC<Props> = ({ children, bg, bgMobile }) => {
       }   `}
     >
       <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0 hero_gradient"></div>
+      <div className="hidden w-full absolute -left-[250px] xl:-left-[320px] top-[0px] h-full lg:flex items-start justify-center">
+        <Image
+          src={Frame}
+          onLoad={handleImageLoad}
+          className="w-[985px] "
+          alt="Frame"
+        />
+      </div>
       <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0   ">
-        <div className="hidden w-full h-full lg:flex items-start justify-center">
-          <Image src={Frame} onLoad={handleImageLoad} alt="Frame" />
-        </div>
         <div className="hidden w-full h-full md:flex lg:hidden items-start justify-center">
           <Image src={Frame} className="!w-full" alt="Frame" />
         </div>
@@ -45,7 +51,7 @@ const Hero: React.FC<Props> = ({ children, bg, bgMobile }) => {
         </div>
       </div>
       <div
-        className="absolute contain top-6 left-0 right-0 bottom-0 w-full h-full flex flex-col space-y-6 md:space-y-8 items-center justify-center "
+        className="absolute contain top-16 md:top-6  left-0 right-0 bottom-0 w-full h-full flex flex-col space-y-6 md:space-y-8 items-center justify-center "
         data-aos="fade-up"
         data-aos-delay={1000}
       >

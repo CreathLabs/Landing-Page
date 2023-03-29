@@ -1,6 +1,7 @@
+import { MenuContext } from "@/contexts/menuContext";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { ReactElement, useRef, useState } from "react";
+import React, { ReactElement, useContext, useRef, useState } from "react";
 
 interface Props {
   path: string;
@@ -14,6 +15,11 @@ const NavLink: React.FC<Props> = ({ path, text, isdropdown, content }) => {
   const router = useRouter();
   const pathname = router.pathname.split("/")[1];
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const dropdownRefMobile = useRef<HTMLDivElement>(null);
+
+  const { toggleMenu } = useContext(MenuContext);
+
+  // console.log(pathname);
 
   return (
     <div
@@ -29,10 +35,17 @@ const NavLink: React.FC<Props> = ({ path, text, isdropdown, content }) => {
         }
         setShow(false);
       }}
-      className="w-fit h-full flex items-center  relative "
+      onClick={() => {
+        if (!isdropdown) {
+          return;
+        }
+        setShow(!show);
+      }}
+      className="w-fit h-full flex flex-col xl:flex-row xl:items-center  relative "
     >
       <Link
         href={!isdropdown ? `/${path}` : ""}
+        onClick={() => !isdropdown && toggleMenu(false)}
         className={`${
           path === pathname ? "text-white" : "text-gray"
         } font-medium  ${
@@ -48,19 +61,36 @@ const NavLink: React.FC<Props> = ({ path, text, isdropdown, content }) => {
       )}
 
       {isdropdown && (
-        <div
-          className=" transition-all duration-300 ease-linear  absolute top-[100%] overflow-hidden -left-5 "
-          style={{
-            height: show ? dropdownRef.current?.clientHeight + "px" : "0px",
-          }}
-        >
+        <>
           <div
-            ref={dropdownRef}
-            className="overflow-hidden rounded-b-[20px] py-6 px-6 whitespace-nowrap !w-full min-w-[300px] bg-black"
+            className=" transition-all duration-300 ease-linear hidden xl:block  absolute top-[100%] overflow-hidden -left-5 "
+            style={{
+              height: show ? dropdownRef.current?.clientHeight + "px" : "0px",
+            }}
           >
-            {content}
+            <div
+              ref={dropdownRef}
+              className="overflow-hidden rounded-b-[20px] py-6 px-6 whitespace-nowrap !w-full min-w-[300px] bg-black"
+            >
+              {content}
+            </div>
           </div>
-        </div>
+          <div
+            className=" transition-all duration-300 ease-linear block xl:hidden overflow-hidden   "
+            style={{
+              height: show
+                ? dropdownRefMobile.current?.clientHeight + "px"
+                : "0px",
+            }}
+          >
+            <div
+              ref={dropdownRefMobile}
+              className="overflow-hidden rounded-b-[20px] py-6 px-1 whitespace-nowrap !w-full min-w-[300px]"
+            >
+              {content}
+            </div>
+          </div>
+        </>
       )}
     </div>
   );

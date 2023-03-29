@@ -15,7 +15,7 @@ const About = () => {
       >
         <>
           <div className="font-Playfair font-bold text-[25px] space-x-6 leading-[83px]  md:text-5xl ">
-            <span>About Creath</span>
+            <span>About Us</span>
           </div>
           <h1 className="max-w-[780px] text-secondary font-Manrope font-normal !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
             We are passionate about blockchain technology’s potential to

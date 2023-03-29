@@ -49,38 +49,38 @@ export const services = [
 
 export const products = [
   {
-    badge: "Tokenomics",
-    name: "Creath Governance Token",
-    about:
-      "Turning unskilled individuals into expert web3 developers through intensive and moni",
-    soon: true,
-  },
-  {
-    badge: "E-commerce",
+    badge: "Ecommerce",
     name: "Creath Art Marketplace",
     about:
-      "Turning unskilled individuals into expert web3 developers through intensive and moni",
+      "A digital gallery bridging the gap between creators and collectors.",
+    soon: false,
+  },
+  {
+    badge: "Cryptocurrency",
+    name: "Creath Governance Token",
+    about:
+      "The Creath native token for transactions of featured art collections, staking to earn rewards, and governance.",
     soon: true,
   },
   {
     badge: "Logistics",
     name: "LaNoche",
     about:
-      "Turning unskilled individuals into expert web3 developers through intensive and moni",
+      "La Noche is dedicated to making logistics experience as seamless and stress-free as possible.",
     soon: true,
   },
   {
-    badge: "NFT Release",
-    name: "NFT Release",
+    badge: "Web3 Brand",
+    name: "BucketboyNFT",
     about:
-      "Turning unskilled individuals into expert web3 developers through intensive and moni",
-    soon: false,
+      "A lifestyle brand that embraces diverse individuals and presents them with limitless possibilities in the Web3 and Blockchain space.",
+    soon: true,
   },
   {
     badge: "Finance",
     name: "Dinero",
     about:
-      "Turning unskilled individuals into expert web3 developers through intensive and moni",
+      "A cutting-edge financial technology solution that provides individuals and businesses with a suite of digital financial services. ",
     soon: true,
   },
 ];
@@ -98,7 +98,7 @@ export const footerLinks = {
     { name: "Careers", link: "/company/careers" },
   ],
   resources: [
-    { name: "Terms & Conditions ", link: "" },
+    { name: "Terms & Conditions ", link: "/terms" },
     { name: "Blog", link: "/blogs" },
     { name: "Events", link: "/events" },
   ],

@@ -25,7 +25,7 @@ const Product: React.FC<Props> = ({
     >
       <div className="absolute top-0 bottom-0 right-0 w-[31px] md:w-[50px] h-full  rounded-r-[20px] bg-[url('/side.svg')] bg-no-repeat bg-cover "></div>
       <div className="w-full p-4 md:p-6  flex flex-col space-y-4 md:space-y-6 pr-10 md:pr-32">
-        <div className="px-[18px] flex justify-center w-[113px] md:w-[124px] bg-white/20 rounded-[10px] py-2 text-[13px] md:text-sm  ">
+        <div className="px-[18px] flex justify-center w-[120px] md:w-[124px] bg-white/20 rounded-[10px] py-2 text-[13px] md:text-sm  ">
           {badge}
         </div>
         <div className="flex space-x-3 items-center ">
@@ -33,7 +33,7 @@ const Product: React.FC<Props> = ({
             {name}
           </h1>
           {soon && (
-            <span className="text-primary hidden md:block  font-Manrope text-sm font-semibold  ">
+            <span className="text-primary hidden md:block whitespace-nowrap  font-Manrope text-sm font-semibold  ">
               Coming soon
             </span>
           )}

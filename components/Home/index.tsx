@@ -1,10 +1,7 @@
-import Image from "next/image";
+import { useRouter } from "next/router";
 import React from "react";
-import Frame from "../../public/Frame.png";
-import MobileFrame from "../../public/MobileFrame.png";
 import Button from "../Common/Button";
 import Hero from "../Common/Hero";
-import Product from "../Common/Product";
 import Blogs from "./Blogs";
 import Faq from "./Faq";
 import Partners from "./Partners";
@@ -12,6 +9,7 @@ import Products from "./Products";
 import Services from "./Services";
 
 const Home = () => {
+  const router = useRouter();
   return (
     <div className="w-full bg-black ">
       <Hero
@@ -27,7 +25,11 @@ const Home = () => {
             creative visualisation forging a new model of culture and value in
             web3.
           </h1>
-          <Button text="Contact Us" px="px-16" />
+          <Button
+            text="Contact Us"
+            px="px-16"
+            action={() => router.push("/contact")}
+          />
         </>
       </Hero>
       <Services />
@@ -40,6 +42,3 @@ const Home = () => {
 };
 
 export default Home;
-
-//
-//

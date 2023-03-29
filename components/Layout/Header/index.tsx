@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import Button from "../../Common/Button";
 import NavLink from "../../Common/NavLink";
@@ -8,10 +9,17 @@ const Header: React.FC<{
   toggleMenu: React.Dispatch<React.SetStateAction<boolean>>;
   menu: boolean;
 }> = ({ toggleMenu, menu }) => {
+  const router = useRouter();
   return (
     <div className="w-full fixed top-0 left-0 right-0 h-[68px] md:h-[80px] flex items-center md:sticky z-50 header">
       <div className="contain relative h-full flex justify-between items-center">
-        <div className="z-50 cursor-pointer">
+        <div
+          onClick={() => {
+            router.push("/");
+            toggleMenu(false);
+          }}
+          className="z-50 cursor-pointer"
+        >
           <svg
             width="55"
             height="40"
@@ -57,7 +65,7 @@ const Header: React.FC<{
           <NavLink text="Company" path="company" isdropdown content={company} />
         </div>
         <div className="hidden z-50 xl:block">
-          <Button text="Contact Us" />
+          <Button text="Contact Us" action={() => router.push("/contact")} />
         </div>
         <div onClick={() => toggleMenu(!menu)} className="xl:hidden">
           <Icon
@@ -72,14 +80,12 @@ const Header: React.FC<{
 
 export default Header;
 
-const company = (
+export const company = (
   <div className="flex flex-col divide-y divide-[#868686]/20 ">
     {["about-us", "team", "careers"].map((item, index) => (
       <div key={index} className="first:pt-0 last:pb-0 pt-6 pb-6">
         <Link
-          href={
-            item === "team" ? `/company/about-us#teams` : `/company/${item}`
-          }
+          href={item === "team" ? `/company/about-us#team` : `/company/${item}`}
           className=" text-lg capitalize font-bold hover:text-primary font-Playfair  "
         >
           <h1>{item.replace("-", " ")}</h1>
@@ -108,7 +114,7 @@ const list = [
   },
 ];
 
-const products = (
+export const products = (
   <div className="flex flex-col divide-y divide-[#868686]/20 ">
     {list.map((item, index) => (
       <div key={index} className="first:pt-0 last:pb-0 space-y-2 pt-5 pb-5">

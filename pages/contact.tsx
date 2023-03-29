@@ -1,16 +1,16 @@
+import Contact from "@/components/Conatct";
 import Head from "next/head";
-import Home from "@/components/Home";
 
-export default function HomePage() {
+export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Home Page</title>
+        <title>Contact Page</title>
         <meta name="description" content="Creath" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Home />
+      <Contact />
     </>
   );
 }
