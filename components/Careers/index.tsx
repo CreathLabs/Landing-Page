@@ -13,17 +13,13 @@ const Careers = () => {
             <span>Become a Creathor</span>
           </div>
           <h1 className="max-w-[780px] text-secondary font-Manrope font-normal !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
-            Learn about new product features, the latest in technology,
-            solutions, and updates.
+            Join us on our mission to transform the blockchain industry with our
+            groundbreaking solutions that have the potential to create a
+            significant impact on the world. We extend an invitation to be a
+            part of our journey towards this revolution.
           </h1>
         </>
       </Hero>
-      <div className="hidden md:block">
-        <Team limit={4} />
-      </div>
-      <div className="block md:hidden">
-        <Team limit={2} />
-      </div>
       <Roles />
     </div>
   );

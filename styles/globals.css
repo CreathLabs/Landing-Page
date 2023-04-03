@@ -29,11 +29,11 @@
 }
 
 .sub_heading {
-  @apply text-[22px] md:text-2xl font-bold font-Playfair leading-[32px];
+  @apply text-[20px] md:text-2xl font-bold font-Playfair leading-[32px];
 }
 
 .paragraph {
-  @apply text-base md:text-lg md:text-xl !leading-[45px];
+  @apply text-base md:text-xl !leading-[45px];
 }
 
 .footer_heading {

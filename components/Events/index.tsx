@@ -11,8 +11,8 @@ const Events = () => {
             <span>Events</span>
           </div>
           <h1 className="max-w-[600px] text-secondary font-Manrope font-normal !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
-            Learn about new product features, the latest in technology,
-            solutions, and updates.
+            Discover and Sign-up for our latest Physical and Virtual
+            Blockchain-related events happening around the world.
           </h1>
         </>
       </Hero>

@@ -18,7 +18,7 @@ const Details = () => {
         </h3>
         <div className="w-full h-full space-y-12 md:space-y-14 ">
           <div className="w-full flex justify-between items-center ">
-            <h1 className="heading !text-[25px] md:!text-[35px] ">
+            <h1 className="heading !text-2xl md:!text-[35px] ">
               {role?.title}
             </h1>
             <div className="hidden md:block w-fit ">
@@ -28,62 +28,24 @@ const Details = () => {
 
           <div className="w-full h-full space-y-10 ">
             <div className="w-full h-full space-y-6 ">
-              <h1 className="sub_heading">Lorem ipsum dolor </h1>
-              <p className="paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing elit,Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit,tur adipiscing elit,Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit,tur adipiscing
-                elit,Lorem ipsum dolor sit amet, you can be canada, ca
-                consectetur adipiscing elit,tur adipiscing elit,Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit,tur adipiscing
-                elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing elit,Lorem ipsum dolor sit amet,
-                consectetur adipiscingnad elit,tur adipiscing elit,Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit,tur adipiscing
-                elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,
-              </p>
+              <h1 className="sub_heading">To Apply:</h1>
+              <ul className="paragraph !list-inside !list-disc ">
+                {role?.toApply}
+              </ul>
             </div>
             <div className="w-full h-full space-y-6 ">
-              <h1 className="sub_heading">Lorem ipsum dolor </h1>
-              <p className="paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit, Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing elit, Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit,tur adipiscing elit,Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit,tur adipiscing
-                elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing, you can be canada elit,Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit,tur adipiscing
-                elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing elit,Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit,tur adipiscing elit,Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit,tur adipiscing elit,
-              </p>
+              <h1 className="sub_heading">
+                What You'll Be Doing (Responsibilities):
+              </h1>
+              <ul className="paragraph !list-inside !list-disc ">
+                {role?.responsibilities}
+              </ul>
             </div>
             <div className="w-full h-full space-y-6 ">
-              <h1 className="sub_heading">Lorem ipsum dolor </h1>
-              <p className="paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing elit,Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit,tur adipiscing elit,Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit,tur adipiscing
-                elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing elit,Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit,tur adipiscing elit,Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit,tur adipiscing
-                elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,tur
-                adipiscing elit,Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit,tur adipiscing elit,Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit,tur adipiscing elit,
-              </p>
+              <h1 className="sub_heading">Qualifications: </h1>
+              <ul className="paragraph !list-inside !list-disc ">
+                {role?.qualifications}
+              </ul>
             </div>
           </div>
         </div>

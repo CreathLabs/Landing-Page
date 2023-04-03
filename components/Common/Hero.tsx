@@ -45,7 +45,7 @@ const Hero: React.FC<Props> = ({ children, bg, bgMobile }) => {
         </div>
       </div>
       <div
-        className="absolute contain top-6 left-0 right-0 bottom-0 w-full h-full flex flex-col space-y-6 md:space-y-8 items-center justify-center "
+        className="absolute contain top-10 left-0 right-0 bottom-0 w-full h-full flex flex-col space-y-6 md:space-y-8 items-center justify-center "
         data-aos="fade-up"
         data-aos-delay={1000}
       >

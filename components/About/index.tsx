@@ -5,6 +5,7 @@ import Partners from "../Home/Partners";
 import Blogs from "../Home/Blogs";
 import Team from "./Team";
 import Join from "./Join";
+import Vision from "./Vision";
 
 const About = () => {
   return (
@@ -17,15 +18,44 @@ const About = () => {
           <div className="font-Playfair font-bold text-[25px] space-x-6 leading-[83px]  md:text-5xl ">
             <span>About Us</span>
           </div>
-          <h1 className="max-w-[780px] text-secondary font-Manrope font-normal !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
-            We are passionate about blockchain technology’s potential to
-            transform the way businesses and individuals interact and transact.
-            Our team of experienced professionals brings together expertise in
-            blockchain development and finance to create innovative solutions.
-          </h1>
+          {/* <h1 className="max-w-[780px] text-secondary font-Manrope font-normal !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+            At Creath, we are passionate about the potential of blockchain
+            technology to transform the way businesses and individuals interact
+            and transact. Our team of experienced professionals brings together
+            expertise in blockchain development, finance, and entrepreneurship
+            to create innovative solutions that meet the needs of our clients
+            and partners.
+          </h1> */}
         </>
       </Hero>
+      <div className="contain pt-16 space-y-6 flex flex-col items-center">
+        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+          At Creath, we are passionate about the potential of blockchain
+          technology to transform the way businesses and individuals interact
+          and transact. Our team of experienced professionals brings together
+          expertise in blockchain development, finance, and entrepreneurship to
+          create innovative solutions that meet the needs of our clients and
+          partners.
+        </h1>
+        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+          We believe in the power of decentralized networks to promote
+          transparency, security, and efficiency, and we strive to harness this
+          power through our products and services. From blockchain-based payment
+          systems to smart contract development and auditing, we offer a range
+          of solutions that leverage the latest advances in blockchain
+          technology to deliver tangible results.
+        </h1>
+        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+          Creath is committed to providing exceptional service and support to
+          our clients, and we believe in building long-term partnerships based
+          on trust and mutual success. Whether you're a startup looking to
+          integrate blockchain into your business model or an established
+          enterprise seeking to optimize your operations, we are here to help
+          you unlock the full potential of blockchain technology.
+        </h1>
+      </div>
       <Mission />
+      <Vision />
       <div className="hidden md:block">
         <Team limit={8} />
       </div>
