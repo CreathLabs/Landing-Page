@@ -48,7 +48,7 @@ const About = () => {
         <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
           Creath is committed to providing exceptional service and support to
           our clients, and we believe in building long-term partnerships based
-          on trust and mutual success. Whether you're a startup looking to
+          on trust and mutual success. Whether you&apos;re a startup looking to
           integrate blockchain into your business model or an established
           enterprise seeking to optimize your operations, we are here to help
           you unlock the full potential of blockchain technology.

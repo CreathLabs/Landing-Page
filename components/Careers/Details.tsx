@@ -35,7 +35,7 @@ const Details = () => {
             </div>
             <div className="w-full h-full space-y-6 ">
               <h1 className="sub_heading">
-                What You'll Be Doing (Responsibilities):
+                What You&apos;ll Be Doing (Responsibilities):
               </h1>
               <ul className="paragraph !list-inside !list-disc ">
                 {role?.responsibilities}
