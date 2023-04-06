@@ -29,7 +29,7 @@ const About = () => {
         </>
       </Hero>
       <div className="contain pt-16 space-y-6 flex flex-col items-center">
-        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-base leading-[45px] md:!text-xl md:!leading-10 ">
           At Creath, we are passionate about the potential of blockchain
           technology to transform the way businesses and individuals interact
           and transact. Our team of experienced professionals brings together
@@ -37,7 +37,7 @@ const About = () => {
           create innovative solutions that meet the needs of our clients and
           partners.
         </h1>
-        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-base leading-[45px] md:!text-xl md:!leading-10 ">
           We believe in the power of decentralized networks to promote
           transparency, security, and efficiency, and we strive to harness this
           power through our products and services. From blockchain-based payment
@@ -45,7 +45,7 @@ const About = () => {
           of solutions that leverage the latest advances in blockchain
           technology to deliver tangible results.
         </h1>
-        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-base leading-[45px] md:!text-xl md:!leading-10 ">
           Creath is committed to providing exceptional service and support to
           our clients, and we believe in building long-term partnerships based
           on trust and mutual success. Whether you&apos;re a startup looking to
@@ -57,10 +57,10 @@ const About = () => {
       <Mission />
       <Vision />
       <div className="hidden md:block">
-        <Team limit={8} />
+        <Team limit={10} />
       </div>
       <div className="block md:hidden">
-        <Team limit={4} />
+        <Team limit={10} />
       </div>
       <Join />
       <Partners />

@@ -388,49 +388,71 @@ export const team = [
     name: "John Dada",
     role: "Chief Executive Officer ",
     link: "https://www.linkedin.com/in/john-dada-0169a912a/",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815296/John_Dada_ktiwuy.png",
   },
   {
-    name: "Jeff Oritse",
+    name: "Jeff Oritseje",
     role: "General Manager",
     link: "https://www.linkedin.com/in/oritseje-jeffrey-a5a866163/",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815285/Jeffery_kvbaaq.png",
+  },
+  {
+    name: "Kehinde Toyo",
+    role: "Legal Adviser",
+    link: "https://www.linkedin.com/in/kehinde-toyo-755a7b3a",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815286/Kehinde_Toyo_v21cog.png",
   },
   {
     name: "Segun Banjo ",
     role: "Chief Operation Officer ",
     link: "https://www.linkedin.com/in/banjo-oluwasegun-5a833113b",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815286/Banjo_Segun_v1cm2y.png",
   },
   {
     name: "Hussain M. Auwal",
     role: "Chief Technical Officer",
     link: "https://www.linkedin.com/in/hussainmauwal ",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815284/Hussain_s34pbb.png",
   },
   {
     name: "Daniel Isikalu ",
     role: "Project Manager",
     link: "https://www.linkedin.com/in/daniel-isikalu-18b225224/",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815285/Daniel_zqm5xe.png",
   },
   {
     name: "Amaka Obimgbo ",
     role: "Public Relation Officer",
     link: "https://www.linkedin.com/in/princess-obimgbo-742a131b5/",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815296/Obimgbo_Amaka_drocff.png",
+  },
+  {
+    name: "Mustapha Nurudeen",
+    role: "Financial Analyst",
+    link: "https://www.linkedin.com/in/mustapha-nurudeen-55b8ba124/",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815293/Mustapha_zoywip.png",
   },
   {
     name: "Fiyinfolu Adeosun",
     role: "Brand Strategist",
     link: "https://www.linkedin.com/in/fiyinfoluwa-adeosun/ ",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815286/Fiyinfolu_zxmh2q.png",
   },
   {
     name: "Nmesoma Egbukichi",
     role: "Social Media Manager",
     link: "https://www.linkedin.com/in/nmesoma-egbukichi-207669230/",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815296/Nnesoma_qp3tcw.png",
   },
 ];
 

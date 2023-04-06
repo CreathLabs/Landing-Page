@@ -14,9 +14,9 @@ const TeamCard: React.FC<{
     >
       <div className="relative h-[250px] md:h-[279px] w-full rounded-[20px] ">
         <Image
-          src="https://res.cloudinary.com/dk6uhtgvo/image/upload/v1679368291/Person_xxyebx.png"
+          src={person.image}
           fill
-          className="w-full h-full rounded-[20px] object-cover object-center "
+          className="w-full h-full rounded-[20px] object-cover object-top "
           alt="team_member"
         />
       </div>
