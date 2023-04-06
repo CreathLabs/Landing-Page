@@ -13,6 +13,8 @@
     rgba(255, 255, 255, 0) 100%
   );
   backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(21px);
+  -moz-backdrop-filter: blur(21px);
 }
 
 .menu_bg {
@@ -22,6 +24,8 @@
     rgba(255, 255, 255, 0) 100%
   );
   backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(21px);
+  -moz-backdrop-filter: blur(21px);
 }
 
 .heading {
