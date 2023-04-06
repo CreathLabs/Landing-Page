@@ -22,8 +22,8 @@
     152.97deg,
     rgba(255, 255, 255, 0.052) 0%,
     rgba(255, 255, 255, 0) 100%
-  );
-  backdrop-filter: blur(21px);
+  ) !important;
+  backdrop-filter: blur(21px) !important;
   -webkit-backdrop-filter: blur(21px);
   -moz-backdrop-filter: blur(21px);
 }
