@@ -3,7 +3,7 @@ import React from "react";
 const Vision = () => {
   return (
     <div className="contain">
-      <div className="w-full flex flex-col space-y-4 xl:space-y-0 xl:flex-row items-center py-28 justify-between">
+      <div className="w-full flex flex-col space-y-4 xl:space-y-0 xl:flex-row items-center py-16 justify-between">
         <h1 className="heading !text-primary " data-aos="fade-right">
           Our Vision
         </h1>

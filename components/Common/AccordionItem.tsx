@@ -12,6 +12,13 @@ function AccordionItem({
   btnOnClick: () => void;
 }) {
   const contentRef = useRef<HTMLDivElement>(null);
+  const [height, setHeight] = useState<number>(0);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      setHeight(contentRef.current.clientHeight);
+    }
+  }, [contentRef.current]);
 
   return (
     <div
@@ -52,7 +59,7 @@ function AccordionItem({
       <div
         className={`  transition-all duration-300 ease-linear overflow-hidden `}
         style={{
-          height: isOpen ? contentRef.current?.clientHeight + "px" : "0px",
+          height: isOpen ? height + "px" : "0px",
         }}
       >
         <div className="!pb-2" ref={contentRef}>

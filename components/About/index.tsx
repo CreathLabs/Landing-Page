@@ -18,25 +18,17 @@ const About = () => {
           <div className="font-Playfair font-bold text-[25px] space-x-6 leading-[83px]  md:text-5xl ">
             <span>About Us</span>
           </div>
-          {/* <h1 className="max-w-[780px] text-secondary font-Manrope font-normal !mb-9 text-center text-[17px] leading-[45px] md:text-2xl md:!leading-10 ">
+          <h1 className="max-w-[600px] font-Manrope text-secondary text-center text-[17px] leading-[45px] md:text-[22px] md:!leading-10 ">
             At Creath, we are passionate about the potential of blockchain
             technology to transform the way businesses and individuals interact
             and transact. Our team of experienced professionals brings together
             expertise in blockchain development, finance, and entrepreneurship
             to create innovative solutions that meet the needs of our clients
             and partners.
-          </h1> */}
+          </h1>
         </>
       </Hero>
-      <div className="contain pt-16 space-y-6 flex flex-col items-center">
-        <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-base leading-[45px] md:!text-xl md:!leading-10 ">
-          At Creath, we are passionate about the potential of blockchain
-          technology to transform the way businesses and individuals interact
-          and transact. Our team of experienced professionals brings together
-          expertise in blockchain development, finance, and entrepreneurship to
-          create innovative solutions that meet the needs of our clients and
-          partners.
-        </h1>
+      <div className="container max-w-screen-lg text-center mx-auto px-6 pt-16 space-y-6 flex flex-col items-center">
         <h1 className=" text-secondary font-Manrope font-normal !mb-9  text-base leading-[45px] md:!text-xl md:!leading-10 ">
           We believe in the power of decentralized networks to promote
           transparency, security, and efficiency, and we strive to harness this

@@ -14,7 +14,7 @@ const Menu: React.FC<{
 
   return (
     <div
-      className="fixed xl:hidden top-0 overflow-hidden left-0 right-0 bottom-0  z-40 transition-all duration-700 ease-in-out header "
+      className="fixed xl:hidden top-0 overflow-hidden left-0 right-0 bottom-0 w-full  z-40 transition-all duration-700 ease-in-out menu_bg "
       style={{
         height: open ? "100vh" : "0px",
       }}
@@ -36,7 +36,7 @@ const Menu: React.FC<{
         />
       </div>
       <div
-        className="absolute bottom-14 left-0 right-0 px-6 transition-all duration-700 ease-in-out "
+        className="absolute bottom-28 left-0 right-0 px-6 transition-all duration-700 ease-in-out "
         style={{
           display: open ? "block" : "none",
         }}

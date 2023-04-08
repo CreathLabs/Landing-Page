@@ -1,7 +1,9 @@
+import { useRouter } from "next/router";
 import React from "react";
 import Button from "../Common/Button";
 
 const Join = () => {
+  const router = useRouter();
   return (
     <div className="h-[375px] relative w-full bg-[url('/team.svg')] bg-no-repeat bg-cover ">
       <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full join_overlay ">
@@ -14,7 +16,11 @@ const Join = () => {
               </h2>
             </div>
 
-            <Button text="Join our Team" px="px-16" />
+            <Button
+              text="Join our Team"
+              px="px-16"
+              action={() => router.push("/company/careers")}
+            />
           </div>
         </div>
       </div>

@@ -1,4 +1,6 @@
+import { Icon } from "@iconify/react";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 
@@ -8,11 +10,10 @@ const TeamCard: React.FC<{
   const router = useRouter();
   return (
     <div
-      className="w-full h-full flex flex-col cursor-pointer space-y-6 md:space-y-12 "
+      className="w-full h-full flex flex-col space-y-6 md:space-y-8 "
       data-aos="fade-up"
-      onClick={() => router.push(person.link)}
     >
-      <div className="relative h-[250px] md:h-[279px] w-full rounded-[20px] ">
+      <div className="relative h-[350px] md:h-[300px] w-full rounded-[20px] ">
         <Image
           src={person.image}
           fill
@@ -21,9 +22,16 @@ const TeamCard: React.FC<{
         />
       </div>
       <div className="flex flex-col space-y-1 md:space-y-2 items-center">
-        <h1 className="text-xl md:text-[22px] font-bold font-Playfair leading-[50px] ">
-          {person.name}
-        </h1>
+        <Link
+          href={person.link}
+          target="_blank"
+          className="flex w-full justify-center items-center space-x-2 "
+        >
+          <Icon icon="mdi:linkedin" className=" !text-xl !md:text-2xl" />
+          <h1 className="text-xl md:text-[22px] font-bold font-Playfair leading-[50px] ">
+            {person.name}
+          </h1>
+        </Link>
         <h1 className="text-base md:text-lg leading-10 ">{person.role}</h1>
       </div>
     </div>

@@ -57,14 +57,14 @@ export const products = [
   },
   {
     badge: "Cryptocurrency",
-    name: "Creath Governance Token",
+    name: "$CGT",
     about:
       "The Creath native token for transactions of featured art collections, staking to earn rewards, and governance.",
     soon: true,
   },
   {
     badge: "Logistics",
-    name: "LaNoche",
+    name: "La Noche",
     about:
       "La Noche is dedicated to making logistics experience as seamless and stress-free as possible.",
     soon: true,
@@ -88,9 +88,10 @@ export const products = [
 export const footerLinks = {
   products: [
     { name: "Art Marketplace", link: "" },
-    { name: "LaNoche", link: "" },
-    { name: "Creath Governance Token", link: "" },
+    { name: "La Noche", link: "" },
+    { name: "$CGT", link: "" },
     { name: "BucketBoy NFT", link: "" },
+    { name: "Dinero", link: "" },
   ],
   company: [
     { name: "About us", link: "/company/about-us" },
@@ -109,7 +110,7 @@ export const roles = [
     type: "Fulltime",
     title: "BLOCKCHAIN DEVELOPER",
     description:
-      "We are Looking for a product designer with 56 years of experience to join the team",
+      "Creath is a company that takes pride in having a team of highly skilled individuals who are among the brightest minds...",
     toApply: (
       <>
         <li>
@@ -171,7 +172,7 @@ export const roles = [
     type: "Fulltime",
     title: "UI/UX DESIGNER",
     description:
-      "We are Looking for a product designer with 56 years of experience to join the team",
+      "Creath is a company that takes pride in having a team of highly skilled individuals who are among the brightest minds...",
     toApply: (
       <>
         <li>
@@ -280,7 +281,7 @@ export const roles = [
     type: "Fulltime",
     title: "FRONT-END WEB DEVELOPER",
     description:
-      "We are Looking for a product designer with 56 years of experience to join the team",
+      "Creath is a company that takes pride in having a team of highly skilled individuals who are among the brightest minds...",
     toApply: (
       <>
         <li>
@@ -431,14 +432,14 @@ export const team = [
     role: "Public Relation Officer",
     link: "https://www.linkedin.com/in/princess-obimgbo-742a131b5/",
     image:
-      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815296/Obimgbo_Amaka_drocff.png",
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680960627/Obimgbo_Amaka_1_rdvcrd.png",
   },
   {
     name: "Mustapha Nurudeen",
     role: "Financial Analyst",
     link: "https://www.linkedin.com/in/mustapha-nurudeen-55b8ba124/",
     image:
-      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680815293/Mustapha_zoywip.png",
+      "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680960627/Mustapha_1_wk4wvq.png",
   },
   {
     name: "Fiyinfolu Adeosun",
@@ -704,5 +705,28 @@ export const accordionItems = [
         </h1>
       </div>
     ),
+  },
+];
+
+export const socialMediaLinks = [
+  {
+    icon: "ant-design:instagram-filled",
+    link: "https://www.instagram.com/Creath.io ",
+  },
+  {
+    icon: "ant-design:twitter-outline",
+    link: "https://twitter.com/TheTec5 ",
+  },
+  {
+    icon: "dashicons:linkedin",
+    link: "https://www.linkedin.com/company/creath-io/ ",
+  },
+  {
+    icon: "bi:discord",
+    link: "https://discord.gg/Sqgb9hsZ5B",
+  },
+  {
+    icon: "carbon:logo-medium",
+    link: "https://medium.com/@creath ",
   },
 ];

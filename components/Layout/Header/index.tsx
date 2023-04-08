@@ -98,19 +98,23 @@ export const company = (
 const list = [
   {
     name: "Creath Art Marketplace",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    about: "A digital gallery bridging the gap between creators...",
   },
   {
     name: "BucketBoy NFT",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    about: "A lifestyle brand that embraces diverse individuals...",
   },
   {
-    name: "Creath Governance Token",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    name: "$CGT",
+    about: "The Creath native token for transactions of featured...",
   },
   {
-    name: "LaNoche",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    name: "La Noche",
+    about: "La Noche is dedicated to making logistics experience...",
+  },
+  {
+    name: "Dinero",
+    about: "A cutting-edge financial technology solution that...",
   },
 ];
 

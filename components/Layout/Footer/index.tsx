@@ -1,4 +1,4 @@
-import { footerLinks } from "@/data";
+import { footerLinks, socialMediaLinks } from "@/data";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -73,36 +73,16 @@ const Footer = () => {
         </div>
 
         <div className="flex space-x-9 items-center">
-          <Icon
-            width={20}
-            height={20}
-            icon="ant-design:instagram-filled"
-            className="cursor-pointer"
-          />
-          <Icon
-            width={20}
-            height={20}
-            icon="ant-design:twitter-outline"
-            className="cursor-pointer"
-          />
-          <Icon
-            width={20}
-            height={20}
-            icon="dashicons:linkedin"
-            className="cursor-pointer"
-          />
-          <Icon
-            width={20}
-            height={20}
-            icon="bi:discord"
-            className="cursor-pointer"
-          />
-          <Icon
-            width={20}
-            height={20}
-            icon="carbon:logo-medium"
-            className="cursor-pointer"
-          />
+          {socialMediaLinks.map(({ icon, link }, index) => (
+            <Link href={link} target="_blank" key={index}>
+              <Icon
+                width={20}
+                height={20}
+                icon={icon}
+                className="cursor-pointer"
+              />
+            </Link>
+          ))}
         </div>
       </div>
 

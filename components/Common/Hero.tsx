@@ -11,12 +11,6 @@ interface Props {
 
 const Hero: React.FC<Props> = ({ children, bg, bgMobile }) => {
   const [animate, setAnimate] = useState(true);
-  const [loaded, setLoaded] = useState(false);
-
-  function handleImageLoad() {
-    console.log("done");
-    setLoaded(true);
-  }
 
   useEffect(() => {
     setTimeout(() => {
@@ -35,7 +29,7 @@ const Hero: React.FC<Props> = ({ children, bg, bgMobile }) => {
       <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0 hero_gradient"></div>
       <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0   ">
         <div className="hidden w-full h-full lg:flex items-start justify-center">
-          <Image src={Frame} onLoad={handleImageLoad} alt="Frame" />
+          <Image src={Frame} alt="Frame" />
         </div>
         <div className="hidden w-full h-full md:flex lg:hidden items-start justify-center">
           <Image src={Frame} className="!w-full" alt="Frame" />

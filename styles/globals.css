@@ -12,20 +12,18 @@
     rgba(255, 255, 255, 0.044) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  backdrop-filter: blur(21px);
   -webkit-backdrop-filter: blur(21px);
   -moz-backdrop-filter: blur(21px);
+  -o-backdrop-filter: blur(21px);
+  backdrop-filter: blur(21px);
 }
 
 .menu_bg {
-  background: linear-gradient(
-    152.97deg,
-    rgba(255, 255, 255, 0.052) 0%,
-    rgba(255, 255, 255, 0) 100%
-  ) !important;
+  background: rgba(0, 0, 0, 1);
+  -webkit-backdrop-filter: blur(21px) !important;
+  -moz-b-webkit-backdrop-filter: blur(21px) !important;
+  -o-b-webkit-backdrop-filter: blur(21px) !important;
   backdrop-filter: blur(21px) !important;
-  -webkit-backdrop-filter: blur(21px);
-  -moz-backdrop-filter: blur(21px);
 }
 
 .heading {
