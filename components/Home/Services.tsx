@@ -43,7 +43,7 @@ const Services = () => {
       </div>
       {end < services.length && (
         <div className="w-full md:hidden ">
-          <Button text="See all Services" action={handleSeeAll} />
+          <Button text="See all Services" width="100%" action={handleSeeAll} />
         </div>
       )}
     </section>

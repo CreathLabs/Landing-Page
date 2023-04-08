@@ -16,6 +16,7 @@ const Blogs = () => {
         <Button
           text="See More"
           px="px-16"
+          width="100%"
           action={() => router.push("/blogs")}
         />
       </div>

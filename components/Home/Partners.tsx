@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-const arr = [1, 2, 3, 4, 5, 6, 9, 10, 11, 12];
-
 const partners = [
   {
     logo: "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680962970/Sportrex_White_apxym2.png",
@@ -22,7 +20,7 @@ const Partners = () => {
         {partners.map((item, index) => (
           <div
             key={index}
-            className=" max-w-[98px] md:min-w-[154px] relative h-[65px] md:h-[85px]  "
+            className=" w-full max-w-[98px] md:min-w-[154px] relative h-[65px] md:h-[85px]  "
           >
             <Image
               src={item.logo}
