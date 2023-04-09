@@ -1,10 +1,12 @@
+import useBlogs from "@/hooks/useBlogs";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { use } from "react";
 import BlogCard from "../Common/BlogCard";
 import Button from "../Common/Button";
 
 const Blogs = () => {
   const router = useRouter();
+  useBlogs();
   return (
     <div className=" w-full contain pt-8 pb-6 space-y-6 " data-aos="fade-up">
       <h1 className=" heading ">Recent Blog Posts</h1>
@@ -16,7 +18,6 @@ const Blogs = () => {
         <Button
           text="See More"
           px="px-16"
-          width="100%"
           action={() => router.push("/blogs")}
         />
       </div>

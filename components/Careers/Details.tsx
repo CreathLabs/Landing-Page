@@ -51,7 +51,7 @@ const Details = () => {
         </div>
 
         <div className="w-full md:hidden !mt-20 ">
-          <Button text="Apply Now" width="100%" />
+          <Button text="Apply Now" />
         </div>
       </div>
     </div>

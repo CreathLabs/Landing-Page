@@ -19,7 +19,6 @@ const Join = () => {
             <Button
               text="Join our Team"
               px="px-16"
-              width="100%"
               action={() => router.push("/company/careers")}
             />
           </div>

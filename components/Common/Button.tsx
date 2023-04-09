@@ -9,13 +9,12 @@ const Button: React.FC<{
   return (
     <button
       onClick={action}
-      style={{
-        width: width ? width : "fit-content",
-      }}
       type="button"
       className={`text-primary text-base md:text-[17px] !h-fit tracking-wide z-30 font-bold py-[14px]  ${
         px ? px : "px-10"
-      }  btn_bg w-full md:w-fit hover:outline outline-[#00EAFC]/30 rounded-md `}
+      }  btn_bg ${
+        width ? "w-full" : "w-full md:w-fit"
+      }  hover:outline outline-[#00EAFC]/30 rounded-md `}
     >
       {text}
     </button>
