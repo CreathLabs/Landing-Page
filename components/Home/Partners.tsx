@@ -3,11 +3,11 @@ import React from "react";
 
 const partners = [
   {
-    logo: "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680962970/Sportrex_White_apxym2.png",
+    logo: "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1681110380/Brokenegg_Logo_White_2_pheyhy.png",
     link: "",
   },
   {
-    logo: "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1680962970/WhatsApp_Image_2023-04-07_at_6.28.51_PM_d1ohcu.jpg",
+    logo: "https://res.cloudinary.com/dk6uhtgvo/image/upload/v1681110380/Sportrex_logo_and_logo_mark_white_1_dmqso0.png",
     link: "",
   },
 ];
@@ -20,7 +20,7 @@ const Partners = () => {
         {partners.map((item, index) => (
           <div
             key={index}
-            className=" w-full max-w-[98px] md:min-w-[154px] relative h-[65px] md:h-[85px]  "
+            className=" w-full max-w-[145px]  md:max-w-[180px] relative h-[65px] md:h-[90px]  "
           >
             <Image
               src={item.logo}

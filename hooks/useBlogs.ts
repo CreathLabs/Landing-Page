@@ -4,28 +4,27 @@ import React, { useEffect, useState } from "react";
 const useBlogs = () => {
   const [blogs, setBlogs] = useState<any>([]);
 
-  const getUser = async (token: string) => {
-    const { data } = await axios.get("https://api.medium.com/v1/me", {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-
-    return data.id;
+  const getUser = async () => {
+    const { data } = await axios.get("/api/user");
+    return data;
+  };
+  const getPublications = async (userId: string) => {
+    const { data } = await axios.post("/api/publications", { userId });
+    return data;
   };
 
   useEffect(() => {
-    const token = process.env.TOKEN;
-    if (!token) {
-      return;
-    }
-
-    getUser(token).then((user) => {
-      console.log(user);
+    getUser().then((res) => {
+      getPublications(res.id).then((publications) => {
+        console.log(blogs);
+        setBlogs(publications);
+      });
     });
   }, []);
 
-  return {};
+  return {
+    blogs,
+  };
 };
 
 export default useBlogs;

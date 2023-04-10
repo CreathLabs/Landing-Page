@@ -35,7 +35,7 @@ const Events = () => {
           </div>
           <h1 className="max-w-[600px] text-secondary font-Manrope font-normal !mb-9 text-center text-[17px] leading-[45px] md:text-[22px] md:!leading-10 ">
             Discover and Sign-up for our latest Physical and Virtual
-            Blockchain-related events happening around the world.
+            Blockchain-related events happening around the world
           </h1>
         </>
       </Hero>

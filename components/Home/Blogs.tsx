@@ -1,6 +1,6 @@
 import useBlogs from "@/hooks/useBlogs";
 import { useRouter } from "next/router";
-import React, { use } from "react";
+import React from "react";
 import BlogCard from "../Common/BlogCard";
 import Button from "../Common/Button";
 

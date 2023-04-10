@@ -95,7 +95,7 @@ export const footerLinks = {
   ],
   company: [
     { name: "About us", link: "/company/about-us" },
-    { name: "Contact ", link: "/company/about-us#teams" },
+    { name: "Contact ", link: "/contact" },
     { name: "Careers", link: "/company/careers" },
   ],
   resources: [
