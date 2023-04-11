@@ -22,7 +22,13 @@ const Details = () => {
               {role?.title}
             </h1>
             <div className="hidden md:block w-fit ">
-              <Button text="Apply Now" px="px-11" />
+              <Button
+                text="Apply Now"
+                px="px-11"
+                action={() =>
+                  router.push("https://forms.gle/XqazigTKcn8xq96K7")
+                }
+              />
             </div>
           </div>
 
@@ -51,7 +57,10 @@ const Details = () => {
         </div>
 
         <div className="w-full md:hidden !mt-20 ">
-          <Button text="Apply Now" />
+          <Button
+            text="Apply Now"
+            action={() => router.push("https://forms.gle/XqazigTKcn8xq96K7")}
+          />
         </div>
       </div>
     </div>
