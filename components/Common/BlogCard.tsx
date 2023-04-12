@@ -42,7 +42,7 @@ const BlogCard: React.FC<{ id: string }> = ({ id }) => {
           className=" relative w-full h-[293px] md:h-[434px] overflow-hidden rounded-[10px] cursor-pointer "
         >
           <Image
-            src="https://res.cloudinary.com/dk6uhtgvo/image/upload/v1678915136/Rectangle_11_gmgywo.png"
+            src={blog.image_url}
             fill
             className={`object-cover rounded-[10px] transition-all  ease-in-out duration-500 ${
               hoverd ? "scale-105" : ""
@@ -55,7 +55,7 @@ const BlogCard: React.FC<{ id: string }> = ({ id }) => {
                 {blog.title}
               </h1>
               <h3 className=" text-base md:text-xl  font-light leading-[28px] md:leading-[40px] ">
-                {truncate(blog.subtitle, 80, 78)}
+                {truncate(blog.subtitle, 60, 48)}
               </h3>
               <h4 className=" text-sm md:text-lg tracking-wide text-primary font-semibold md:leading-[45px] ">
                 {moment(blog.last_modified_at).format("LL")}
