@@ -2,22 +2,21 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const useBlogs = () => {
-  const [blogs, setBlogs] = useState<any>([]);
+  const [blogs, setBlogs] = useState<string[]>([]);
 
   const getUser = async () => {
     const { data } = await axios.get("/api/user");
     return data;
   };
-  const getPublications = async (userId: string) => {
-    const { data } = await axios.post("/api/publications", { userId });
+  const getBlogs = async (userId: string) => {
+    const { data } = await axios.post("/api/blogs", { userId });
     return data;
   };
 
   useEffect(() => {
     getUser().then((res) => {
-      getPublications(res.id).then((publications) => {
-        console.log(blogs);
-        setBlogs(publications);
+      getBlogs(res.id).then((res) => {
+        setBlogs(res.blogs);
       });
     });
   }, []);

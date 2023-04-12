@@ -2,15 +2,16 @@ import axios from "axios";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 type Data = {
-  id: string;
+  article: any;
 };
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
+  const { id } = req.query;
   const { data } = await axios.get(
-    "https://medium2.p.rapidapi.com/user/id_for/Creath",
+    `https://medium2.p.rapidapi.com/article/${id}`,
     {
       headers: {
         "X-RapidAPI-Key": `d761daaf44msh815ee0b391ccf3fp18cc85jsn2a7c8a406346`,
@@ -19,5 +20,5 @@ export default async function handler(
       },
     }
   );
-  res.status(200).json({ id: data.id });
+  res.status(200).json({ article: data });
 }

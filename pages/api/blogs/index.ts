@@ -2,13 +2,7 @@ import axios from "axios";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 type Data = {
-  publications: {
-    id: string;
-    name: string;
-    description: string;
-    url: string;
-    imageUrl: string;
-  }[];
+  blogs: string[];
 };
 
 export default async function handler(
@@ -16,17 +10,15 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   const { userId } = req.body;
-
   const { data } = await axios.get(
-    `https://api.medium.com/v1/users/${userId}/publications`,
+    `https://medium2.p.rapidapi.com/user/${userId}/articles`,
     {
       headers: {
-        Authorization: `Bearer ${process.env.TOKEN}`,
-        Accept: "application/json",
+        "X-RapidAPI-Key": `d761daaf44msh815ee0b391ccf3fp18cc85jsn2a7c8a406346`,
+        "X-RapidAPI-Host": "medium2.p.rapidapi.com",
         "Content-Type": "application/json",
       },
     }
   );
-  console.log(data);
-  res.status(200).json({ publications: data.data });
+  res.status(200).json({ blogs: data.associated_articles });
 }
