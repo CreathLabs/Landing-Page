@@ -90,7 +90,7 @@ const Footer = () => {
       <div className="pt-10 pb-8 w-full !mt-0 ">
         <h1 className="text-center text-sm md:text-base !font-light ">
           {" "}
-          © 2022 Creath. All Rights Reserved
+          © 2023 Creath. All Rights Reserved
         </h1>
       </div>
     </div>

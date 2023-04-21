@@ -9,7 +9,7 @@ const Terms = () => {
           <h1 className="heading text-[22px] md:!text-[35px] text-center ">
             Terms and Conditions
           </h1>
-          <h3 className="max-w-[400px] font-Manrope text-secondary !mb-9 text-center text-[17px] leading-[45px] md:text-xl md:!leading-10 ">
+          <h3 className="max-w-[400px] font-Manrope text-secondary !mb-9 text-center text-[17px] leading-[45px] md:text-lg md:!leading-10 ">
             Last Updated: 19th April 2023.
           </h3>
         </div>

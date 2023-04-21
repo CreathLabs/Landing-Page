@@ -2,9 +2,9 @@ import React from "react";
 
 const Details = () => {
   return (
-    <div className="contain my-10 space-y-4">
-      <h1 className="heading text-[22px] md:!text-[35px]">Introduction</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+    <div className=" my-10 space-y-4 container  max-w-screen-lg px-6 pt-16 mx-auto">
+      <h1 className="heading text-[22px] md:!text-3xl">Introduction</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Welcome to Creath, owned and operated by Creath Innovations Ltd.
         (“Creath,” “we,” “us”, or “our”). These Terms of Service (“Terms”)
         govern your access to and use of the Creath website(s), our APIs, mobile
@@ -19,7 +19,7 @@ const Details = () => {
         uses smart contracts to link to or otherwise be associated with certain
         content or data.
       </p>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         For purposes of these Terms, “user”, “you”, and “your” means you as the
         user of the product or service. If you use the product or service on
         behalf of a company or other entity then “you” includes you and that
@@ -27,19 +27,19 @@ const Details = () => {
         representative of the entity with the authority to bind the entity to
         these Terms, and (b) you agree to these Terms on the entity’s behalf.
       </p>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         PLEASE READ THESE TERMS OF SERVICE CAREFULLY AS THEY CONTAIN IMPORTANT
         INFORMATION AND AFFECT YOUR LEGAL RIGHTS BELOW, THEY INCLUDE A MANDATORY
         ARBITRATION AGREEMENT AND CLASS ACTION WAIVER WHICH (WITH LIMITED
         EXCEPTIONS) REQUIRE ANY DISPUTES BETWEEN US TO BE RESOLVED THROUGH
         INDIVIDUAL ARBITRATION RATHER THAN BY A JUDGE IN COURT.
       </p>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         BY CLICKING TO ACCEPT AND/OR USING OUR SERVICE, YOU AGREE TO BE BOUND BY
         THESE TERMS AND ALL OF THE TERMS INCORPORATED HEREIN BY REFERENCE. IF
         YOU DO NOT AGREE TO THESE TERMS, YOU MAY NOT ACCESS OR USE THE SERVICE.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath is not a wallet provider, exchange, broker, financial
         institution, money services business, or creditor. Creath provides a
         peer-to-peer web3 service that helps users discover and directly
@@ -50,7 +50,7 @@ const Details = () => {
         services. To use our Services, you must use a third-party wallet which
         allows you to engage in transactions on block chains.
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath is not party to any agreement between any users. You bear full
         responsibility for verifying the identity, legitimacy, and authenticity
         of NFTs, or products/services that you purchase from third-party sellers
@@ -58,7 +58,7 @@ const Details = () => {
         functionality, or authenticity of users or NFTs (and any content
         associated with such NFTs) visible on the Service.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Because we have a growing number of products/services, we sometimes need
         to provide additional terms for specific products or services (and such
         products/services are deemed part of the “Service” hereunder and shall
@@ -69,7 +69,7 @@ const Details = () => {
         may provide for a specific service, such additional terms shall
         supersede for that specific service.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath reserves the right to change or modify these Terms at any time
         and in our sole discretion. If we make material changes to these Terms,
         we will use reasonable efforts to provide notice of such changes, such
@@ -82,10 +82,10 @@ const Details = () => {
         understand the terms and conditions that apply when you access or use
         the Service.{" "}
       </p>
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Accessing the Service
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Like much of web3, your block chain addresses functions as your identity
         on Creath. Accordingly, you will need a block chain address and a
         third-party wallet to access the Service. Your account on the service
@@ -93,7 +93,7 @@ const Details = () => {
         if you want to add some flair to your Creath persona, you can add
         additional information, such as a profile picture, to your Account.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Your Account on Creath will be associated with your linked block chain
         address and display the NFTs for that block chain address (and, if
         applicable, any content associated with such NFTs). By using your wallet
@@ -115,7 +115,7 @@ const Details = () => {
         otherwise suspect any security issues related to the product, service or
         your account (you can contact us here).
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You also represent and warrant that you will comply with all applicable
         laws of the Federal Republic of Nigeria (e.g., local, state, federal and
         other laws) when using the products or services. Without limiting the
@@ -138,7 +138,7 @@ const Details = () => {
         in such country, territory or jurisdiction does not violate any
         applicable laws.{" "}
       </p>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath may require you to provide additional information and documents
         in certain circumstances, such as at the request of any government
         authority, as any applicable law or regulation dictates, or to
@@ -149,7 +149,7 @@ const Details = () => {
         information in response to such a request, Creath may refuse to restore
         your access to the Service.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Your access and use of the Service may be interrupted from time to time
         for any of several reasons, including, without limitation, the
         malfunction of equipment, periodic updating, maintenance, or repair of
@@ -159,15 +159,15 @@ const Details = () => {
         that Creath may disable your Account or reassign your username or
         associated url.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         We require all users to be at least 18 years old. If you are at least 13
         years old but under 18 years old, you may only use Creath through a
         parent or guardian’s Account and with their approval and oversight. That
         account holder is responsible for your actions using the Account. It is
         prohibited to use our Service if you are under 13 years old.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Ownership</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Ownership</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         The Service, including its “look and feel” (e.g., text, graphics,
         images, logos, page headers, button icons, and scripts), proprietary
         content, information and other materials, and all content and other
@@ -181,7 +181,7 @@ const Details = () => {
         content, including, without limitation, the exclusive right to create
         derivative works.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath’s name, logo, trademarks, and any Creath product or service
         names, designs, logos, and slogans are the intellectual property of
         Creath or our affiliates or licensors and may not be copied, imitated or
@@ -194,7 +194,7 @@ const Details = () => {
         copied, imitated or used, in whole or in part, without our prior written
         permission.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         All other third-party trademarks, registered trademarks, and product
         names mentioned on the Service or contained in the content linked to or
         associated with any NFTs displayed on the Service are the property of
@@ -205,7 +205,7 @@ const Details = () => {
         otherwise does not constitute or imply endorsement, sponsorship, or
         recommendation by Creath.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         We welcome feedback, comments, and suggestions for improvements to the
         Service (“Feedback”). You acknowledge and expressly agree that any
         contribution of Feedback does not and will not give or grant you any
@@ -219,10 +219,10 @@ const Details = () => {
         intellectual property right) that you may have in and to any and all
         Feedback.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         License to Access and Use Our Service and Content
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You are hereby granted a limited, nonexclusive, nontransferable, non-sub
         licensable, and personal license to access and use the Service provided,
         however, that such license is subject to your compliance with these
@@ -238,10 +238,10 @@ const Details = () => {
         content linked to or associated with any NFTs is solely as set forth by
         the applicable seller or creator of such NFT.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Third-Party Content and Services
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         As a peer-to-peer web3 service, Creath helps you explore products,
         services or NFTs created by third parties and interact with different
         block chains. Creath does not make any representations or warranties
@@ -253,7 +253,7 @@ const Details = () => {
         visible on Creath will always remain visible and/or available to be
         bought, sold, or transferred.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Products and services may be subject to terms directly between buyers
         and sellers with respect to the use of the content and benefits
         associated with a given product (“Purchase Terms”). For example, when
@@ -266,7 +266,7 @@ const Details = () => {
         agreeing to, and enforcing Purchase Terms. You are solely responsible
         for reviewing such Purchase Terms.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         The Service may also contain links or functionality to access or use
         third-party websites (“Third-Party Websites”) and applications
         (“Third-Party Applications”), or otherwise display, include, or make
@@ -288,8 +288,8 @@ const Details = () => {
         Third-Party Websites, Third-Party Applications, and Third-Party
         Materials at your own risk.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">User Conduct</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">User Conduct</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Openness is one of our most prized values, and we’re committed to
         providing people from all walks of life and varying experience levels
         with web3 with a colorful lens into different block chains. However, to
@@ -302,13 +302,13 @@ const Details = () => {
         block chains; disabling your ability to access our Service; and/or other
         actions.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You agree that you will not violate any law, contract, intellectual
         property or other third-party right, and that you are solely responsible
         for your conduct and content, while accessing or using the Service. You
         also agree that you will not:{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Use or attempt to use another user’s Account without authorization from
         such user; Pose as another person or entity, or use a wallet to engage
         in a transaction on Creath that is owned or controlled, in whole or in
@@ -373,13 +373,13 @@ const Details = () => {
         interfere with, disrupt, negatively affect or inhibit other users from
         fully enjoying the Service.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         We allow users to post NSFW content, but that content and other
         associated material is subject to being marked NSFW and may be handled
         differently than non-NSFW content in navigation menus and search
         results.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Finally, by using the Service, you understand the importance of DYOR –
         doing your own research. You bear full responsibility for verifying the
         authenticity, legitimacy, identity, and other details about any
@@ -388,16 +388,16 @@ const Details = () => {
         make no guarantees or promises about the identity, legitimacy, or
         authenticity of any NFT, collection, or account on the Service.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Intellectual Property Rights
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You are solely responsible for your use of the Service and for any
         information you provide, including compliance with applicable laws,
         rules, and regulations, as well as these Terms, including the User
         Conduct requirements outlined above.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         By using the Service in conjunction with creating, submitting, posting,
         promoting, or displaying content, or by complying with Creath’s metadata
         standards in your metadata API responses, you grant us a worldwide,
@@ -410,13 +410,13 @@ const Details = () => {
         Service. This includes any digital file, art, or other material linked
         to or associated with any items that are displayed on the Service.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath does not claim that submitting, posting, or displaying this
         content on or through the Service gives Creath any ownership of the
         content. We're not saying we own it. We're just saying we might use it
         and show it off a bit.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You represent and warrant that you have, or have obtained, all rights,
         licenses, consents, permissions, power and/or authority necessary to
         grant the rights granted herein for any content that you create, submit,
@@ -427,7 +427,7 @@ const Details = () => {
         entitled to post the material and to grant Creath the license described
         above, and that the content does not violate any laws.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath will take down works in response to the protection of digital
         works under The Nigerian Copyright Act Cap C28, LFN 2004; Creath will
         also takedown notices and/or other intellectual property infringement
@@ -438,14 +438,14 @@ const Details = () => {
         rights, please fill out our form here or you may submit written notice
         to our designated copyright agent at:{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath Innovations Ltd.
         <br /> Attn: Legal Department <br /> 40A, Oyibo Adjarho Street, <br />{" "}
         Lekki Phase 1, <br /> Lagos State, Nigeria. <br /> Email:
         admin@creath.io <br />
         Phone: +234 704 704 8709{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         For us to process your infringement claim regarding content on the
         Service, you must be the rights holder or someone authorized to act on
         behalf of the rights holder. We encourage you to use our form to help
@@ -453,7 +453,7 @@ const Details = () => {
         choose to write to us by e-mail or physical mail instead, your notice
         must include:{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Identification of the copyrighted work(s), trademark, publicity rights,
         or other intellectual property rights that you claim is being infringed;
         Identification of the allegedly infringing material that is requested to
@@ -474,10 +474,10 @@ const Details = () => {
         understand why it is no longer available on Creath and can also contact
         you to resolve any dispute.
       </p>
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Communication Preferences
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         By creating an Account, you consent to receive electronic communications
         from Creath (e.g., via email, push notification, text messages, or other
         types of messages). These communications may include notices about your
@@ -490,8 +490,8 @@ const Details = () => {
         exception of important service announcements and administrative
         messages) by following the unsubscribe instructions provided.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">App Terms</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">App Terms</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You are responsible for providing the mobile device; wireless service
         plan, software, internet connections, and/or other equipment or services
         that you need to download, install, and use the App. We do not guarantee
@@ -499,7 +499,7 @@ const Details = () => {
         any particular service plan. We do not guarantee that the App or Service
         will be available in any particular geographic location.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         The following terms and conditions apply to you only if you are using
         the App from the Apple App or Google Play Store: To the extent the other
         terms and conditions of these Terms are less restrictive than, or
@@ -538,8 +538,8 @@ const Details = () => {
         right (and will be deemed to have accepted the right) to enforce these
         Terms against you as a third-party beneficiary thereof.{" "}
       </p>
-      <h1 className="heading text-[22px] md:!text-[35px]">Indemnification</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Indemnification</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         By agreeing to these Terms and accessing the Service, you agree, to the
         fullest extent permitted by applicable law, to indemnify, defend, and
         hold harmless Creath, and our respective past, present, and future
@@ -569,8 +569,8 @@ const Details = () => {
         TO, AND NOT IN LIEU OF, ANY OTHER INDEMNITIES SET FORTH IN A WRITTEN
         AGREEMENT BETWEEN YOU AND CREATH.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Disclaimers</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Disclaimers</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         YOUR ACCESS TO AND USE OF THE SERVICE IS AT YOUR OWN RISK. YOU
         UNDERSTAND AND AGREE THAT THE SERVICE IS PROVIDED ON AN “AS IS” AND “AS
         AVAILABLE” BASIS AND CREATH EXPRESSLY DISCLAIMS WARRANTIES OR CONDITIONS
@@ -597,7 +597,7 @@ const Details = () => {
         INTERNET AND WILL NOT HOLD CREATH RESPONSIBLE FOR ANY BREACH OF
         SECURITY.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         WE WILL NOT BE RESPONSIBLE OR LIABLE TO YOU FOR ANY LOSS AND TAKE NO
         RESPONSIBILITY FOR, AND WILL NOT BE LIABLE TO YOU FOR, ANY USE OF
         PRODUCTS, ITEMS, NFTS, CONTENT, AND/OR CONTENT LINKED TO OR ASSOCIATED
@@ -608,14 +608,14 @@ const Details = () => {
         WITHOUT LIMITATION THE USE OF VIRUSES, PHISHING, BRUTEFORCING OR OTHER
         MEANS OF ATTACK AGAINST THE SERVICE.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         NFTS EXIST ONLY BY VIRTUE OF THE OWNERSHIP RECORD MAINTAINED IN THE
         ASSOCIATED BLOCK CHAIN (E.G., ETHEREUM NETWORK). ANY TRANSFERS OR SALES
         OCCUR ON THE ASSOCIATED BLOCK CHAIN (E.G., ETHEREUM). CREATH AND/OR ANY
         OTHER CREATH PARTY CANNOT EFFECT OR OTHERWISE CONTROL THE TRANSFER OF
         TITLE OR RIGHT IN ANY NFTS OR UNDERLYING OR ASSOCIATED CONTENT OR ITEMS.{" "}
       </p>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         NO CREATH PARTY IS RESPONSIBLE OR LIABLE FOR ANY SUSTAINED LOSSES OR
         INJURY DUE TO VULNERABILITY OR ANY KIND OF FAILURE, ABNORMAL BEHAVIOR OF
         SOFTWARE (E.G., WALLET, SMART CONTRACT), BLOCK CHAINS OR ANY OTHER
@@ -625,33 +625,33 @@ const Details = () => {
         INCLUDING FORKS, TECHNICAL NODE ISSUES OR ANY OTHER ISSUES HAVING LOSSES
         OR INJURY AS A RESULT.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Some jurisdictions do not allow the exclusion of implied warranties in
         contracts with consumers, so the above exclusion may not apply to you.{" "}
       </p>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Assumption of Risk <br /> You accept and acknowledge:
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         The value of NFTs is subjective. Prices of NFTs are subject to
         volatility and fluctuations in the price of crypto currency can also
         materially and adversely affect NFT prices. You acknowledge that you
         fully understand this subjectivity and volatility and that you may lose
         money.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         A lack of use or public interest in the creation and development of
         distributed ecosystems could negatively impact the development of those
         ecosystems and related applications, and could therefore also negatively
         impact the potential utility of products.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         The regulatory regime governing block chain technologies, non-fungible
         tokens, crypto currency, and other crypto-based items is uncertain, and
         new regulations or policies may materially adversely affect the
         development of the Service and the utility of products.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You are solely responsible for determining what, if any, taxes apply to
         your transactions and to withhold, collect, report, and remit the
         correct amounts of taxes to the appropriate tax authorities. Creath is
@@ -659,7 +659,7 @@ const Details = () => {
         remitting the taxes that apply to your purchases, items, products or
         services.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         There are risks associated with purchasing items associated with content
         created by third parties through peer-to-peer transactions, including
         but not limited to, the risk of purchasing counterfeit items, mislabeled
@@ -669,14 +669,14 @@ const Details = () => {
         making any decisions to sell, obtain, transfer, or otherwise interact
         with any accounts/collections.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         We do not control the public block chains that you are interacting with
         and we do not control certain smart contracts and protocols that may be
         integral to your ability to complete transactions on these public block
         chains. Additionally, block chain transactions are irreversible and
         Creath has no ability to reverse any transactions on the block chain.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         There are risks associated with using Internet and block chain based
         products, including, but not limited to, the risk associated with
         hardware, software, and Internet connections, the risk of malicious
@@ -687,7 +687,7 @@ const Details = () => {
         may experience when using the Service or any Block chain network,
         however caused.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         The Service relies on third-party platforms and/or vendors. If we are
         unable to maintain a good relationship with such platform providers
         and/or vendors; if the terms and conditions or pricing of such platform
@@ -697,7 +697,7 @@ const Details = () => {
         unavailable for a prolonged period of time, access to and use of the
         Service will suffer.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Creath reserves the right to hide collections, contracts, and items
         affected by any of these issues or by other issues. Items you purchase
         may become inaccessible on Creath. Under no circumstances shall the
@@ -705,7 +705,7 @@ const Details = () => {
         conjunction with the purchase, sale, or transfer of items available on
         any block chains serve as grounds for a claim against Creath.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         If you have a dispute with one or more users, YOU RELEASE US FROM
         CLAIMS, DEMANDS, AND DAMAGES OF EVERY KIND AND NATURE, KNOWN AND
         UNKNOWN, ARISING OUT OF OR IN ANY WAY CONNECTED WITH SUCH DISPUTES. IN
@@ -714,10 +714,10 @@ const Details = () => {
         RELEASE TO INCLUDE THOSE CLAIMS WHICH YOU MAY KNOW OR SUSPECT TO EXIST
         IN YOUR FAVOR AT THE TIME OF AGREEING TO THIS RELEASE.
       </p>
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Limitation of Liability
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         TO THE FULLEST EXTENT PERMITTED BY LAW, YOU AGREE THAT IN NO EVENT WILL
         CREATH OR ITS SERVICE PROVIDERS BE LIABLE TO YOU OR ANY THIRD PARTY FOR
         ANY LOST PROFIT OR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL,
@@ -735,7 +735,7 @@ const Details = () => {
         AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR
         COMPUTER SYSTEM OR MOBILE DEVICE OR LOSS OF DATA RESULTING THEREFROM.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, IN NO EVENT
         SHALL THE MAXIMUM AGGREGATE LIABILITY OF CREATH ARISING OUT OF OR IN ANY
         WAY RELATED TO THESE TERMS, THE ACCESS TO AND USE OF THE SERVICE,
@@ -745,7 +745,7 @@ const Details = () => {
         FOREGOING LIMITATIONS WILL APPLY EVEN IF THE ABOVE STATED REMEDY FAILS
         OF ITS ESSENTIAL PURPOSE.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Some jurisdictions do not allow the exclusion or limitation of
         incidental or consequential damages, so the above limitation or
         exclusion may not apply to you. Some jurisdictions also limit
@@ -753,26 +753,26 @@ const Details = () => {
         consumer products, so this limitation may not apply to personal injury
         claims.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Privacy Policy</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Privacy Policy</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Please refer to our Privacy Policy for information about how we collect,
         use, and share personal data about you. By submitting personal data
         through our Service, you agree to the terms of our Privacy Policy and
         you expressly consent to the collection, use, and disclosure of your
         personal data in accordance with the Privacy Policy.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Modifications to the Service
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         We reserve the right in our sole discretion to modify, suspend, or
         discontinue, temporarily or permanently, the Service (or any features or
         parts thereof) at any time and without liability as a result.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Dispute Resolution; Arbitration
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Dispute Resolution. Please read the following arbitration agreement in
         this Section (“Arbitration Agreement”) carefully. It requires you to
         arbitrate disputes with Creath and limits the manner in which you can
@@ -781,7 +781,7 @@ const Details = () => {
         resolution services for such disagreements and the parties must resolve
         those disputes directly.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Applicability of Arbitration Agreement. You agree that any dispute,
         controversy, or claim relating in any way to your access or use of the
         Service, to any products sold or distributed through the Service, or to
@@ -795,7 +795,7 @@ const Details = () => {
         proper jurisdiction if the claim relates to intellectual property
         infringement or other misuse of intellectual property rights.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Dispute resolution process. You and Creath both agree to engage in
         good-faith efforts to resolve disputes prior to either party initiating
         arbitration, small claims court proceeding, or equitable relief for
@@ -821,7 +821,7 @@ const Details = () => {
         equitable relief in a court of proper jurisdiction for matters relating
         to intellectual property infringement, if the claims qualify.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Arbitration Rules. The Arbitration and Conciliation Act CAP 18, LFN 2004
         is the legislation for the enforcement of this Arbitration Agreement. To
         begin an arbitration proceeding after participating in the dispute
@@ -836,7 +836,7 @@ const Details = () => {
         State area (if you live in Nigeria). Any judgment on the award rendered
         by the arbitrator may be entered in any court of competent jurisdiction.{" "}
       </p>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Authority of Arbitrator. The arbitrator shall have exclusive authority
         to (a) determine the scope and enforceability of this Arbitration
         Agreement and (b) resolve any dispute related to the interpretation,
@@ -857,7 +857,7 @@ const Details = () => {
         of law would have. The award of the arbitrator is final and binding upon
         you and us.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Waiver of Court proceedings. YOU AND CREATH HEREBY WAIVE ANY
         CONSTITUTIONAL AND STATUTORY RIGHTS TO SUE IN A COURT OF COMPETENT
         JURISDICTION AND HAVE A TRIAL IN FRONT OF A JUDGE. You and Creath are
@@ -869,7 +869,7 @@ const Details = () => {
         arbitration, and court review of an arbitration award is subject to very
         limited review.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Waiver of Class Actions and Class Arbitrations. ALL CLAIMS AND DISPUTES
         WITHIN THE SCOPE OF THIS ARBITRATION AGREEMENT MUST BE ARBITRATED ON AN
         INDIVIDUAL BASIS AND NOT ON A REPRESENTATIVE (INCLUDING, WITHOUT
@@ -886,18 +886,18 @@ const Details = () => {
         must be severed from the arbitration and brought in the courts located
         in Lagos State, Nigeria. All other claims shall be arbitrated.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Severability. Except as provided in this Section, if any part or parts
         of this Arbitration Agreement are found under the law to be invalid or
         unenforceable, then such specific part or parts shall be of no force and
         effect and shall be severed and the remainder of the Arbitration
         Agreement shall continue in full force and effect.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Survival of Agreement. This Arbitration Agreement will survive the
         termination of your relationship with Creath.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Modification. Notwithstanding any provision in these Terms to the
         contrary, we agree that if Creath makes any future material change to
         this Arbitration Agreement, you may reject that change within thirty
@@ -905,18 +905,18 @@ const Details = () => {
         following address: Creath Innovations Ltd, Attn: Legal Department, 40A,
         Oyibo Adjarho Street, Lekki Phase 1, Lagos State, Nigeria.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">
+      <h1 className="heading text-[22px] md:!text-3xl">
         Governing Law and Venue
       </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         These Terms and your access to and use of the Service shall be governed
         by and construed and enforced in accordance with the laws of the Federal
         Republic of Nigeria. Any dispute between the parties that is not subject
         to arbitration as set forth or cannot be heard in small claims court
         shall be resolved in the High courts of Lagos State, Nigeria.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Termination</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Termination</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         If you breach any of the provisions of these Terms, all licenses granted
         by Creath will terminate automatically. Additionally, notwithstanding
         anything contained in these Terms, we reserve the right, with or without
@@ -927,26 +927,24 @@ const Details = () => {
         you in such event and that you will not be entitled to a refund of any
         amounts that you have already paid to us.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Severability</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Severability</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         If any term, clause, or provision of these Terms is held invalid or
         unenforceable, then that term, clause, or provision will be severable
         from these Terms and will not affect the validity or enforceability of
         any remaining part of that term, clause, or provision, or any other
         term, clause, or provision of these Terms.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">
-        Injunctive Relief{" "}
-      </h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Injunctive Relief </h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You agree that a breach of these Terms will cause irreparable injury to
         Creath for which monetary damages would not be an adequate remedy and
         Creath shall be entitled to equitable relief in addition to any remedies
         it may have hereunder or at law without a bond, other security, or proof
         of damages.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Export Laws</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Export Laws</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         You agree that you will not export or re-export, directly or indirectly,
         the Service, and/or other information or materials provided by Creath
         hereunder, to any country for which the Federal Republic of Nigeria or
@@ -961,16 +959,16 @@ const Details = () => {
         list. You are responsible for and hereby agree to comply at your sole
         expense with all applicable export laws and regulations.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Survival All</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Survival All</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         sections which by their nature should survive the termination of these
         Terms shall continue in full force and effect subsequent to and
         notwithstanding any termination of these Terms by Creath or you.
         Termination will not limit any of Creath’s other rights or remedies at
         law or in equity.{" "}
       </p>{" "}
-      <h1 className="heading text-[22px] md:!text-[35px]">Miscellaneous</h1>
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <h1 className="heading text-[22px] md:!text-3xl">Miscellaneous</h1>
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         These Terms constitute the entire agreement between you and Creath
         relating to your access to and use of the Service. These Terms, and any
         rights and licenses granted hereunder, may not be transferred or
@@ -982,7 +980,7 @@ const Details = () => {
         headings used herein are for reference only and shall not be read to
         have any legal effect.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         The Service is operated by Creath Innovations Ltd in Nigeria. Those who
         choose to access the Service from locations outside the Federal Republic
         of Nigeria do so at their own initiative and are responsible for
@@ -990,7 +988,7 @@ const Details = () => {
         International Sale of Goods/Services will not apply to the
         interpretation or construction of these Terms.{" "}
       </p>{" "}
-      <p className="text-secondary text-[17px] md:text-xl leading-10">
+      <p className="text-secondary text-base text-justify md:text-[17px]  leading-10">
         Except as otherwise provided herein, these Terms are intended solely for
         the benefit of the parties and are not intended to confer third-party
         beneficiary rights upon any other person or entity.
