@@ -4,6 +4,20 @@ export default function Document() {
   return (
     <Html lang="en" className="scroll-smooth !scroll-pt-[150px]">
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-4PKDEV8KMW"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-4PKDEV8KMW');
+              `,
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
