@@ -16,6 +16,7 @@ const useBlogs = () => {
   useEffect(() => {
     getUser().then((res) => {
       getBlogs(res.id).then((res) => {
+        console.log(res.blogs);
         setBlogs(res.blogs);
       });
     });
