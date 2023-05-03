@@ -17,8 +17,11 @@ export default async function handler(
         "X-RapidAPI-Key": process.env.TOKEN,
         "X-RapidAPI-Host": "medium2.p.rapidapi.com",
         "Content-Type": "application/json",
+        Accept: "application/json",
       },
     }
   );
+
+  console.log(data);
   res.status(200).json({ article: data });
 }
