@@ -14,7 +14,7 @@ export default async function handler(
     `https://medium2.p.rapidapi.com/article/${id}`,
     {
       headers: {
-        "X-RapidAPI-Key": `d761daaf44msh815ee0b391ccf3fp18cc85jsn2a7c8a406346`,
+        "X-RapidAPI-Key": process.env.TOKEN,
         "X-RapidAPI-Host": "medium2.p.rapidapi.com",
         "Content-Type": "application/json",
       },
