@@ -22,6 +22,5 @@ export default async function handler(
     }
   );
 
-  console.log(data);
   res.status(200).json({ article: data });
 }

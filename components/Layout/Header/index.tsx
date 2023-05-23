@@ -56,12 +56,7 @@ const Header: React.FC<{
         <div className=" hidden absolute top-0 left-0 right-0 bottom-0 xl:flex w-full h-full justify-center space-x-[88px] items-center">
           <NavLink text="Home" path="" />
           <NavLink text="Marketplace" path="marketplace" />
-          <NavLink
-            text="Products"
-            path="products"
-            isdropdown
-            content={products}
-          />
+          <NavLink text="Products" path="#products" />
           <NavLink text="Company" path="company" isdropdown content={company} />
         </div>
         <div className="hidden z-50 xl:block">

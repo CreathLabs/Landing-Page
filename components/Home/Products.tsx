@@ -5,7 +5,9 @@ import Product from "../Common/Product";
 const Products = () => {
   return (
     <div className="w-full contain pt-10 pb-[68px] space-y-10 ">
-      <h1 className="heading text-center md:text-left ">Our Products</h1>
+      <h1 id="products" className="heading text-center md:text-left ">
+        Our Products
+      </h1>
       <div className="w-full grid gird-cols-1 lg:grid-cols-2  gap-10">
         {products.map(({ about, badge, name, soon }, index) => (
           <Product
