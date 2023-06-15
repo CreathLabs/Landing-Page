@@ -55,7 +55,7 @@ const Header: React.FC<{
         </div>
         <div className=" hidden absolute top-0 left-0 right-0 bottom-0 xl:flex w-full h-full justify-center space-x-[88px] items-center">
           <NavLink text="Home" path="" />
-          <NavLink text="Marketplace" path="marketplace" />
+          <NavLink text="Marketplace" path="https://art.creath.io/" />
           <NavLink text="Products" path="#products" />
           <NavLink text="Company" path="company" isdropdown content={company} />
         </div>

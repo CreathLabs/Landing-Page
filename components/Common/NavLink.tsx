@@ -44,7 +44,13 @@ const NavLink: React.FC<Props> = ({ path, text, isdropdown, content }) => {
       className="w-fit h-full flex flex-col xl:flex-row xl:items-center  relative "
     >
       <Link
-        href={!isdropdown ? `/${path}` : ""}
+        href={
+          !isdropdown && text === "Marketplace"
+            ? path
+            : !isdropdown
+            ? `/${path}`
+            : ""
+        }
         onClick={() => !isdropdown && toggleMenu(false)}
         className={`${
           path === pathname ? "text-white" : "text-gray"
