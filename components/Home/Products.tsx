@@ -9,13 +9,14 @@ const Products = () => {
         Our Products
       </h1>
       <div className="w-full grid gird-cols-1 lg:grid-cols-2  gap-10">
-        {products.map(({ about, badge, name, soon }, index) => (
+        {products.map(({ about, badge, name, soon, link }, index) => (
           <Product
             key={index}
             about={about}
             badge={badge}
             name={name}
             soon={soon}
+            link={link}
             animation={index % 2 === 0 ? "fade-right" : "fade-left"}
             delay={index % 2 === 0 ? 0 : 300}
           />

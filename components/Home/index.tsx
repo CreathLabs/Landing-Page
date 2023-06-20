@@ -14,7 +14,7 @@ const Home = () => {
         bgMobile="bg-[url('/mobile.svg')]"
       >
         <>
-          <div className="font-Playfair font-bold text-[25px] space-x-2 md:space-x-6 leading-[83px]  md:text-5xl ">
+          <div className="font-Playfair font-bold text-2xl sm:text-[25px] space-x-2 md:space-x-6 leading-[83px]  md:text-5xl ">
             <span>Creativity</span> <span>X</span> <span>Innovation</span>
           </div>
           <h1 className="max-w-[600px] font-Manrope text-secondary !mb-9 text-center text-[17px] leading-[45px] md:text-[22px] md:!leading-10 ">

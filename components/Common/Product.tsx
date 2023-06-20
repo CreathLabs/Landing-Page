@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 interface Props {
@@ -7,6 +8,7 @@ interface Props {
   soon: boolean;
   animation: string;
   delay?: number;
+  link?: string;
 }
 
 const Product: React.FC<Props> = ({
@@ -16,12 +18,20 @@ const Product: React.FC<Props> = ({
   soon,
   animation,
   delay,
+  link,
 }) => {
+  const router = useRouter();
   return (
     <div
       className="relative  rounded-[20px] bg-[#868686]/[22%] "
       data-aos={animation}
       data-aos-delay={delay}
+      onClick={() => {
+        if (!link) {
+          return;
+        }
+        router.push(link);
+      }}
     >
       <div className="absolute top-0 bottom-0 right-0 w-[31px] md:w-[50px] h-full  rounded-r-[20px] bg-[url('/side.svg')] bg-no-repeat bg-cover "></div>
       <div className="w-full p-4 md:p-6  flex flex-col space-y-4 md:space-y-6 pr-10 md:pr-32">

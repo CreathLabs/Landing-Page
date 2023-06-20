@@ -1,23 +1,21 @@
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import React from "react";
 
 const TeamCard: React.FC<{
   person: { name: string; role: string; link: string; image: string };
 }> = ({ person }) => {
-  const router = useRouter();
   return (
     <div
-      className="w-full h-full flex flex-col space-y-6 md:space-y-8 "
+      className="w-full h-full flex flex-col items-center space-y-6 md:space-y-8 "
       data-aos="fade-up"
     >
-      <div className="relative h-[350px] md:h-[300px] w-full rounded-[20px] ">
+      <div className="relative h-[250px] w-[250px] rounded-full ">
         <Image
           src={person.image}
           fill
-          className="w-full h-full rounded-[20px] object-cover object-top "
+          className="w-full h-full rounded-full object-cover object-top "
           alt="team_member"
         />
       </div>

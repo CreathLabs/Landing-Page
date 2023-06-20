@@ -54,6 +54,7 @@ export const products = [
     about:
       "A digital gallery bridging the gap between creators and collectors.",
     soon: false,
+    link: "https://art.creath.io/",
   },
   {
     badge: "Cryptocurrency",
@@ -61,19 +62,21 @@ export const products = [
     about:
       "The Creath native token for transactions of featured art collections, staking to earn rewards, and governance.",
     soon: true,
-  },
-  {
-    badge: "Logistics",
-    name: "La Noche",
-    about:
-      "La Noche is dedicated to making logistics experience as seamless and stress-free as possible.",
-    soon: true,
+    link: "https://pdfhost.io/v/u2pOW7B0f_Creath_Whitepaper",
   },
   {
     badge: "Web3 Brand",
     name: "BucketboyNFT",
     about:
       "A lifestyle brand that embraces diverse individuals and presents them with limitless possibilities in the Web3 and Blockchain space.",
+    soon: true,
+    link: "https://linktr.ee/bucketboynft",
+  },
+  {
+    badge: "Logistics",
+    name: "La Noche",
+    about:
+      "La Noche is dedicated to making logistics experience as seamless and stress-free as possible.",
     soon: true,
   },
   {
