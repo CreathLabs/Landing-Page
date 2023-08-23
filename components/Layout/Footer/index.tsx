@@ -67,6 +67,8 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* <div>Creath INC 2880 Zanker road suite 203 San Jose, CA 95134</div> */}
+
       <div className="w-full flex flex-col lg:flex-row space-y-16 lg:space-y-0  lg:justify-between items-center ">
         <div>
           <Image src={SubLogo} alt="" />

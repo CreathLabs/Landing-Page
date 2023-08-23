@@ -714,15 +714,15 @@ export const accordionItems = [
 export const socialMediaLinks = [
   {
     icon: "ant-design:instagram-filled",
-    link: "https://www.instagram.com/Creath.io ",
+    link: " https://www.instagram.com/Creathlabs",
   },
   {
     icon: "ant-design:twitter-outline",
-    link: "https://twitter.com/TheTec5 ",
+    link: "https://twitter.com/CreathLabs",
   },
   {
     icon: "dashicons:linkedin",
-    link: "https://www.linkedin.com/company/creath-io/ ",
+    link: "https://www.linkedin.com/company/creathlabs/",
   },
   {
     icon: "bi:discord",
@@ -731,5 +731,9 @@ export const socialMediaLinks = [
   {
     icon: "carbon:logo-medium",
     link: "https://medium.com/@creath ",
+  },
+  {
+    icon: "carbon:logo-youtube",
+    link: " https://www.youtube.com/@creath",
   },
 ];
