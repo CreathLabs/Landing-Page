@@ -62,7 +62,7 @@ export const products = [
     about:
       "The Creath native token for transactions of featured art collections, staking to earn rewards, and governance.",
     soon: false,
-    link: "https://pdfhost.io/v/u2pOW7B0f_Creath_Whitepaper",
+    link: "https://whitepaper.creath.io",
   },
   {
     badge: "Web3 Brand",
