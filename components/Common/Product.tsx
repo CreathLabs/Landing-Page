@@ -23,7 +23,7 @@ const Product: React.FC<Props> = ({
   const router = useRouter();
   return (
     <div
-      className="relative  rounded-[20px] bg-[#868686]/[22%] "
+      className="relative cursor-pointer  rounded-[20px] bg-[#868686]/[22%] "
       data-aos={animation}
       data-aos-delay={delay}
       onClick={() => {

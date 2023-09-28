@@ -72,29 +72,29 @@ export const products = [
     soon: false,
     link: "https://linktr.ee/bucketboynft",
   },
-  {
-    badge: "Logistics",
-    name: "La Noche",
-    about:
-      "La Noche is dedicated to making logistics experience as seamless and stress-free as possible.",
-    soon: true,
-  },
-  {
-    badge: "Finance",
-    name: "Dinero",
-    about:
-      "A cutting-edge financial technology solution that provides individuals and businesses with a suite of digital financial services. ",
-    soon: true,
-  },
+  // {
+  //   badge: "Logistics",
+  //   name: "La Noche",
+  //   about:
+  //     "La Noche is dedicated to making logistics experience as seamless and stress-free as possible.",
+  //   soon: true,
+  // },
+  // {
+  //   badge: "Finance",
+  //   name: "Dinero",
+  //   about:
+  //     "A cutting-edge financial technology solution that provides individuals and businesses with a suite of digital financial services. ",
+  //   soon: true,
+  // },
 ];
 
 export const footerLinks = {
   products: [
     { name: "Art Marketplace", link: "" },
-    { name: "La Noche", link: "" },
+    // { name: "La Noche", link: "" },
     { name: "$CGT", link: "" },
     { name: "BucketBoy NFT", link: "" },
-    { name: "Dinero", link: "" },
+    // { name: "Dinero", link: "" },
   ],
   company: [
     { name: "About us", link: "/company/about-us" },
