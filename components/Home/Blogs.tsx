@@ -13,7 +13,7 @@ const Blogs = () => {
       <h1 className=" heading ">Recent Blog Posts</h1>
       <div className=" w-full grid grid-cols-1 lg:grid-cols-2 gap-[50px] ">
         {blogs &&
-          blogs?.slice(0, 2).map((blog) => <BlogCard id={blog} key={blog} />)}
+          blogs?.slice(0, 2).map((blog) => <BlogCard id={blog.id} key={blog.id.toString()} />)}
       </div>
       <div className="w-full flex items-center justify-center !mt-16">
         <Button

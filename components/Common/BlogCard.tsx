@@ -7,27 +7,29 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
 interface Blog {
-  title: string;
-  url: string;
-  image_url: string;
-  subtitle: string;
-  last_modified_at: string;
+  id: Number,
+  title: string,
+  description: string,
+  content: string,
+  cover_image: string,
+  created_at: string,
+  updated_at: string
 }
 
-const BlogCard: React.FC<{ id: string }> = ({ id }) => {
+const BlogCard: React.FC<{ id: Number }> = ({ id }) => {
   const [hoverd, setHovered] = useState(false);
   const [blog, setBlog] = useState<Blog | null>(null);
 
   const router = useRouter();
 
   const getBlogDetails = async () => {
-    const { data } = await axios.get(`/api/blogs/${id}`);
+    const { data } = await axios.get(`https://creath.tech/api/blogs/${id}`);
     return data;
   };
 
   useEffect(() => {
     getBlogDetails().then((res) => {
-      setBlog(res.article);
+      setBlog(res.data);
     });
   }, [id]);
 
@@ -35,14 +37,14 @@ const BlogCard: React.FC<{ id: string }> = ({ id }) => {
     <>
       {blog && (
         <Link
-          href={blog.url}
+          href={`https://art.creath.io/blog/${blog.id}`}
           target="_blank"
           onMouseOver={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           className=" relative w-full h-[293px] md:h-[434px] overflow-hidden rounded-[10px] cursor-pointer "
         >
           <Image
-            src={blog.image_url}
+            src={blog.cover_image}
             fill
             className={`object-cover rounded-[10px] transition-all  ease-in-out duration-500 ${
               hoverd ? "scale-105" : ""
@@ -55,10 +57,10 @@ const BlogCard: React.FC<{ id: string }> = ({ id }) => {
                 {blog.title}
               </h1>
               <h3 className=" text-base md:text-xl  font-light leading-[28px] md:leading-[40px] ">
-                {truncate(blog.subtitle, 60, 48)}
+                {truncate(blog.description, 60, 48)}
               </h3>
               <h4 className=" text-sm md:text-lg tracking-wide text-primary font-semibold md:leading-[45px] ">
-                {moment(blog.last_modified_at).format("LL")}
+                {moment(blog.updated_at).format("LL")}
               </h4>
             </div>
           </div>
